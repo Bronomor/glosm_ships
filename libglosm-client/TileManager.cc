@@ -32,6 +32,10 @@
 #include <algorithm>
 #include <cstdio>
 
+#include <iostream>
+#include <glosm/MetricBasis.hh>
+#include <glosm/ParsingHelpers.hh>
+
 TileManager::TileManager(const Projection projection): projection_(projection), loading_(-1, -1, -1) {
 	generation_ = 0;
 	thread_die_flag_ = false;
@@ -371,6 +375,28 @@ int TileManager::RecRenderTiles(QuadNode* node, const Viewer& viewer) {
     }
     glEnd();
 #endif
+
+	/////////////////////////////// ADD CUSTOM OBJECT /////////////////////////////////
+	/*char* lat =  "53.8931081";
+	char* lon = "-29.5387218";
+	
+	int latInt = ParseCoord(lat);
+	int lonInt = ParseCoord(lon);
+
+	Vector3i globalVector = Vector3i(lonInt , latInt, 0);
+
+	Vector3d mockVector = projection_.Project(globalVector, ref);
+	float scale = 1;
+
+	std::cout << mockVector.x << " " << mockVector.y << std::endl;
+
+	glBegin(GL_TRIANGLES);
+		glVertex2f ( mockVector.x, mockVector.y );
+		glVertex2f ( mockVector.x - 0.0001, mockVector.y);
+		glVertex2f ( mockVector.x - 0.0002, mockVector.y - 0.0001);
+	glEnd(); */
+	/////////////////////////////// ADD CUSTOM OBJECT /////////////////////////////////
+
 
 	glMatrixMode(GL_MODELVIEW);
 	glPopMatrix();

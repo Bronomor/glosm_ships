@@ -28,6 +28,9 @@
 #include <glosm/Projection.hh>
 #include <glosm/VertexBuffer.hh>
 
+#include <iostream>
+#include <glosm/ParsingHelpers.hh>
+
 GPXTile::GPXTile(const Projection& projection, const GPXDatasource& datasource, const HeightmapDatasource& heightmap, const Vector2i& ref, const BBoxi& bbox) : Tile(ref), size_(0) {
 	std::vector<Vector3i> points;
 	datasource.GetPoints(points, bbox);
@@ -43,6 +46,13 @@ GPXTile::GPXTile(const Projection& projection, const GPXDatasource& datasource, 
 
 		size_ = points_->GetFootprint();
 	}
+
+	char* lat =  "53.8931081";
+	char* lon = "-29.5387218";
+	int latInt = ParseCoord(lat);
+	int lonInt = ParseCoord(lon);
+	Vector3i globalVector = Vector3i(lonInt , latInt, 0);
+	ship = projection.Project(globalVector, ref);
 }
 
 GPXTile::~GPXTile() {
@@ -52,11 +62,12 @@ void GPXTile::Render() {
 	if (points_.get()) {
 		glDepthFunc(GL_LEQUAL);
 
-		glColor4f(1.0f, 0.0f, 1.0f, 0.5f);
-		glPointSize(3.0);
+		//glColor4f(1.0f, 0.0f, 1.0f, 0.5f);
+		//glPointSize(3.0);
 
 		points_->Bind();
 
+		
 		glEnableClientState(GL_VERTEX_ARRAY);
 
 		glVertexPointer(3, GL_FLOAT, sizeof(Vector3f)*2, BUFFER_OFFSET(0));
@@ -64,6 +75,14 @@ void GPXTile::Render() {
 
 		glVertexPointer(3, GL_FLOAT, sizeof(Vector3f), BUFFER_OFFSET(0));
 		glDrawArrays(GL_LINES, 0, points_->GetSize());
+
+
+		glBegin(GL_TRIANGLES);
+			glVertex2f ( ship.x, ship.y );
+			glVertex2f ( ship.x - 0.0001, ship.y);
+			glVertex2f ( ship.x - 0.0002, ship.y - 0.0001);
+		glEnd();
+
 
 		glDisableClientState(GL_VERTEX_ARRAY);
 	}

@@ -561,6 +561,10 @@
     <nd ref='-882' />
     <nd ref='-886' />
   </way>
+    <way id='-1173' action='modify' visible='true'>
+    <nd ref='-882' />
+    <nd ref='-870' />
+  </way>
   <way id='-1172' action='modify' visible='true'>
     <nd ref='-884' />
     <nd ref='-874' />
@@ -1650,7 +1654,7 @@
     <member type='way' ref='-1162' role='outer' />
     <member type='way' ref='-1184' role='outer' />
     <tag k='building' v='yes' />
-    <tag k='building:levels' v='3' />
+    <tag k='building:levels' v='1' />
     <tag k='note' v='simple multipolygon tests' />
     <tag k='type' v='multipolygon' />
   </relation>
@@ -1660,7 +1664,7 @@
     <member type='way' ref='-1164' role='outer' />
     <member type='way' ref='-1182' role='outer' />
     <tag k='building' v='yes' />
-    <tag k='building:levels' v='3' />
+    <tag k='building:levels' v='1' />
     <tag k='note' v='simple multipolygon tests' />
     <tag k='type' v='multipolygon' />
   </relation>
@@ -1668,7 +1672,7 @@
     <member type='way' ref='-1166' role='outer' />
     <member type='way' ref='-1182' role='outer' />
     <tag k='building' v='yes' />
-    <tag k='building:levels' v='3' />
+    <tag k='building:levels' v='1' />
     <tag k='note' v='simple multipolygon tests' />
     <tag k='type' v='multipolygon' />
   </relation>
@@ -1680,10 +1684,11 @@
     <member type='way' ref='-1180' role='outer' />
     <member type='way' ref='-1172' role='outer' />
     <tag k='building' v='yes' />
-    <tag k='building:levels' v='3' />
+    <tag k='building:levels' v='1' />
     <tag k='note' v='simple multipolygon tests' />
     <tag k='type' v='multipolygon' />
-  </relation>
+  </relation>    
+
   <relation id='-1190' timestamp='2011-02-20T17:58:02Z' visible='true'>
     <member type='way' ref='-1018' role='outer' />
     <member type='way' ref='-1014' role='inner' />
@@ -1717,4 +1722,5 @@
     <tag k='note' v='simple multipolygon with multiple outers' />
     <tag k='type' v='multipolygon' />
   </relation>
+
 </osm>

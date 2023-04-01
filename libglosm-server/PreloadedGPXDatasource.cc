@@ -20,6 +20,7 @@
 
 #include <glosm/PreloadedGPXDatasource.hh>
 #include <glosm/ParsingHelpers.hh>
+#include <iostream>
 
 PreloadedGPXDatasource::PreloadedGPXDatasource() : XMLParser(XMLParser::HANDLE_ELEMENTS | XMLParser::HANDLE_CHARDATA) {
 }
@@ -43,7 +44,6 @@ void PreloadedGPXDatasource::StartElement(const char* name, const char** atts) {
 			else
 				++att;
 		}
-
 		points_.push_back(Vector3i(lon, lat, 0));
 	} else if (tag_level_ == 2 && current_tag_ == TRK && StrEq<-1>(name, "trkseg")) {
 		current_tag_ = TRKSEG;

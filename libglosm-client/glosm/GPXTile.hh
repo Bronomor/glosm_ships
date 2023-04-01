@@ -46,6 +46,8 @@ protected:
 
 	size_t size_;
 
+	Vector3f ship;
+
 public:
 	/**
 	 * Constructs tile from vector of points
