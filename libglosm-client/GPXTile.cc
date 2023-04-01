@@ -30,6 +30,7 @@
 
 #include <iostream>
 #include <glosm/ParsingHelpers.hh>
+#include "3dsModel/ModelReader.h"
 
 GPXTile::GPXTile(const Projection& projection, const GPXDatasource& datasource, const HeightmapDatasource& heightmap, const Vector2i& ref, const BBoxi& bbox) : Tile(ref), size_(0) {
 	std::vector<Vector3i> points;
@@ -53,6 +54,8 @@ GPXTile::GPXTile(const Projection& projection, const GPXDatasource& datasource, 
 	int lonInt = ParseCoord(lon);
 	Vector3i globalVector = Vector3i(lonInt , latInt, 0);
 	ship = projection.Project(globalVector, ref);
+
+	ladujModele();
 }
 
 GPXTile::~GPXTile() {
@@ -70,19 +73,25 @@ void GPXTile::Render() {
 		
 		glEnableClientState(GL_VERTEX_ARRAY);
 
-		glVertexPointer(3, GL_FLOAT, sizeof(Vector3f)*2, BUFFER_OFFSET(0));
-		glDrawArrays(GL_POINTS, 0, points_->GetSize()/2);
+		//glVertexPointer(3, GL_FLOAT, sizeof(Vector3f)*2, BUFFER_OFFSET(0));
+		//glDrawArrays(GL_POINTS, 0, points_->GetSize()/2);
 
-		glVertexPointer(3, GL_FLOAT, sizeof(Vector3f), BUFFER_OFFSET(0));
-		glDrawArrays(GL_LINES, 0, points_->GetSize());
+		//glVertexPointer(3, GL_FLOAT, sizeof(Vector3f), BUFFER_OFFSET(0));
+		//glDrawArrays(GL_LINES, 0, points_->GetSize());
 
-
+		glPushMatrix();
 		glBegin(GL_TRIANGLES);
 			glVertex2f ( ship.x, ship.y );
 			glVertex2f ( ship.x - 0.0001, ship.y);
 			glVertex2f ( ship.x - 0.0002, ship.y - 0.0001);
 		glEnd();
+		glPopMatrix();
 
+		glPushMatrix();
+			glTranslatef(ship.x,ship.y,0);
+			glRotatef(90,1,0,0);
+			rysujModel ("scene");
+		glPopMatrix();
 
 		glDisableClientState(GL_VERTEX_ARRAY);
 	}

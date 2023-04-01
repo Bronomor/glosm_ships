@@ -124,7 +124,7 @@ int real_main(int argc, char** argv) {
 	glutSpecialUpFunc(SpecialUp);
 
 	app.InitGL();
-
+	
 	/* main loop */
 	/* note that this never returns and objects created above
 	 * are never properly destroyed; should dump GLUT ASAP */

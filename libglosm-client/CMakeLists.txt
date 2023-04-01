@@ -31,6 +31,7 @@ SET(SOURCES
 	TerrainLayer.cc
 	TerrainTile.cc
 	TileManager.cc
+	model3DS.cpp
 )
 
 # We check whether GL functions != NULL there. These funcions may
@@ -63,12 +64,22 @@ SET(HEADERS
 	glosm/TileManager.hh
 	glosm/VertexBuffer.hh
 	glosm/Viewer.hh
+	3dsModel/model3DS.hh
+	3dsModel/ModelReader.hh
+	3dsModel/Vector2.h
 )
 
-INCLUDE_DIRECTORIES(. ../libglosm-server ${EXPAT_INCLUDE_DIR} ${GL_INCLUDE_DIRS})
+FIND_PACKAGE(GLUT REQUIRED)
 
-ADD_LIBRARY(glosm-client SHARED ${SOURCES})
-TARGET_LINK_LIBRARIES(glosm-client glosm-server ${GL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
+INCLUDE_DIRECTORIES(. ../libglosm-server ${EXPAT_INCLUDE_DIR}
+	 ${GL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIR})
+
+ADD_LIBRARY(glosm-client SHARED ${SOURCES} ${GLUT_LIBRARIES}
+${GL_LIBRARIES})
+
+TARGET_LINK_LIBRARIES(glosm-client glosm-server ${GL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${GLUT_LIBRARIES}
+${GL_LIBRARIES})
+
 
 # Installation
 # SET_TARGET_PROPERTIES(glosm-client PROPERTIES SOVERSION 1)
