@@ -1,0 +1,6 @@
+1. Zmienic zeby woda byla na niebiesko [ moze byc ciezkie ] 
+2. Parser openstreet map zrobic i zintegorwac z aplikacja
+3. Przerobic na Vertex3<Vector3i> ships, aby mozna kilkanascie statkow miec
+4. Przerobic modele zeby wczytywalo wszystkie a nie tylko zahardkodowany
+5. 2D mapka z wyborem ? 
+6. Podglad statku i szczegolowe informacje
