@@ -41,7 +41,7 @@ void ladujModele()
 {
 	model3DS * model_tmp;
 
-	model_tmp = new model3DS ("/home/pawlo/Pulpit/szablon - tunel/data/lawka.3ds",1,0);
-	dodajModel (model_tmp,"lawka.3ds");
-	printf("[3DS] Model '%s' stored\n","lawka.3ds");
+	model_tmp = new model3DS ("/home/pawlo/Pulpit/glosm/libglosm-client/data/lawka.3ds",1,0);
+	dodajModel (model_tmp,"lawka");
+	printf("[3DS] Model '%s' stored\n","lawka");
 }

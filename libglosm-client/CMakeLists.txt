@@ -64,8 +64,8 @@ SET(HEADERS
 	glosm/TileManager.hh
 	glosm/VertexBuffer.hh
 	glosm/Viewer.hh
-	3dsModel/model3DS.hh
-	3dsModel/ModelReader.hh
+	3dsModel/model3DS.h
+	3dsModel/ModelReader.h
 	3dsModel/Vector2.h
 )
 

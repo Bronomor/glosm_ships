@@ -88,8 +88,9 @@ void GPXTile::Render() {
 		glPopMatrix();
 
 		glPushMatrix();
-			glTranslatef(ship.x,ship.y,0);
-			glRotatef(90,1,0,0);
+			glTranslated(ship.x,ship.y,0);
+			glRotated(90,1,0,0);
+			glScaled(0.0000001, 0.0000001, 0.0000001);
 			rysujModel ("scene");
 		glPopMatrix();
 
