@@ -293,3 +293,17 @@ Contacts
 
     * Page on OSM wiki with some screenshots:
       http://wiki.openstreetmap.org/wiki/Glosm
+
+
+
+
+###
+Fajny projekt
+jak uruchomic ?
+
+sudo su
+mdkirp -p build && cd build
+cmake .. -DBUILD_VIEWER_GLUT=ON -DBUILD_VIEWER_SDL=OFF
+make && make install
+cd viewer
+./glosm-viewer-glut ../../testdata/glosm.osm ../../testdata/glosm.gpx

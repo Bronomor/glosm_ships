@@ -43,6 +43,7 @@ ENDIF(BUILD_VIEWER_SDL)
 
 IF(BUILD_VIEWER_GLUT)
 	# Depends
+	
 	FIND_PACKAGE(GLUT REQUIRED)
 
 	# Targets
@@ -65,6 +66,7 @@ IF(BUILD_VIEWER_GLUT)
 		glosm-client
 		glosm-server
 		glosm-geomgen
+		${OPENGL_LIBRARIES}
 		${GLUT_LIBRARIES}
 		${GL_LIBRARIES}
 	)
