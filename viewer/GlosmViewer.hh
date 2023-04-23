@@ -36,6 +36,10 @@
 
 #include <sys/time.h>
 
+#include <cpr/cpr.h>
+#include <iostream>
+#include <curl/curl.h>
+
 class GlosmViewer {
 public:
 	enum Keys {

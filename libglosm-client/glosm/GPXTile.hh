@@ -46,7 +46,7 @@ protected:
 
 	size_t size_;
 
-	Vector3f ship;
+	std::vector<Vector3f> ships;
 
 public:
 	/**

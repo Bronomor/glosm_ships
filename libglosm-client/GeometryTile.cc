@@ -124,7 +124,9 @@ void GeometryTile::Render() {
 
 //		lines_indices_->Bind();
 //		glDrawElements(GL_LINES, lines_indices_->GetSize(), GL_UNSIGNED_INT, 0);
+		//glScaled(10,10,10);
 		glDrawElements(GL_LINES, lines_indices_->GetSize(), GL_UNSIGNED_INT, lines_indices_->Data().data());
+		//glScaled(0.1,0.1,0.1);
 //		lines_indices_->UnBind();
 
 		glDisableClientState(GL_VERTEX_ARRAY);
@@ -156,7 +158,9 @@ void GeometryTile::Render() {
 
 //		convex_indices_->Bind();
 //		glDrawElements(GL_TRIANGLES, convex_indices_->GetSize(), GL_UNSIGNED_INT, 0);
-		glDrawElements(GL_TRIANGLES, convex_indices_->GetSize(), GL_UNSIGNED_INT, convex_indices_->Data().data());
+		//glScaled(2, 2, 2);
+		//glDrawElements(GL_TRIANGLES, convex_indices_->GetSize(), GL_UNSIGNED_INT, convex_indices_->Data().data());
+		//glScaled(0.5,0.5,0.5);
 //		convex_indices_->UnBind();
 
 		glDisable(GL_POLYGON_OFFSET_FILL);

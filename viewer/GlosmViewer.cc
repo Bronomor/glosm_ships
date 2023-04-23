@@ -1,3 +1,5 @@
+#define PY_SSIZE_T_CLEAN
+#include <Python.h>
 /*
  * Copyright (C) 2010-2012 Dmitry Marakasov
  *
@@ -38,6 +40,102 @@
 #include <cstdio>
 #include <cstring>
 
+#include <fstream>
+#include <json/json.h>
+#include <iostream>
+#include <cmath>
+#include <filesystem>
+
+using recursive_directory_iterator = std::filesystem::recursive_directory_iterator;
+
+void get_cpr_file(double longitude, double latitude, double progress, int64_t iterActual)
+{
+	std::string url = "https://api.openstreetmap.org/api/0.6/map?bbox="
+	+std::to_string(longitude)
+	+","
+	+std::to_string(latitude)
+	+","
+	+std::to_string(longitude+progress)
+	+","
+	+std::to_string(latitude+progress);
+
+	cpr::Response r = cpr::Get(cpr::Url{url});
+
+	std::cout << r.status_code << std::endl;
+	std::cout << r.header["content-type"] << std::endl;
+	std::cout << url << std::endl;
+
+	std::ofstream out("../../testdata/program/output"+std::to_string(iterActual)+".osm");
+	out << r.text;
+	out.close();
+}
+
+void gpx_cpr_load()
+{
+	// assumption square box
+	double latitude = 64.52;
+	double longitude = 11.2;
+	double progress = 0.08;
+	int index = 0;
+
+	std::string url = "https://api.openstreetmap.org/api/0.6/map?bbox="
+	+std::to_string(longitude)
+	+","
+	+std::to_string(latitude)
+	+","
+	+std::to_string(longitude+progress)
+	+","
+	+std::to_string(latitude+progress);
+
+	cpr::Response r = cpr::Get(cpr::Url{url});
+	std::cout << r.status_code << std::endl;
+	std::cout << r.header["content-type"] << std::endl;
+	std::cout << url << std::endl;
+
+	std::ofstream out("../../testdata/program/tracks.gpx");
+	out << r.text;
+	out.close();
+}
+
+void cpr_load()
+{
+	// assumption square box
+	double latitude_left = 64.52;
+	double longitude_left = 11.2;
+	double latitude_right = 65;
+	double longitude_right = 11.68;
+
+	double progress = 0.08;
+	int64_t iterTotal = std::abs(latitude_right - latitude_left) / progress;
+	int64_t iterActual = 0;
+
+	for(double longitude=longitude_left; longitude<longitude_right; longitude+=progress){
+		for(double latitude=latitude_left; latitude<latitude_right; latitude+=progress){
+			get_cpr_file(longitude, latitude, progress, iterActual);
+			iterActual += 1;
+			std::cout << iterActual << std::endl;
+		}
+	}
+
+	//while(iterActual < iterTotal)
+	//{
+	//	double longitude = longitude_left + progress*iterActual;
+	//	double latitude  = latitude_left  + progress*iterActual;
+	//	get_cpr_file(longitude, latitude, progress);
+	//	iterActual += 1;
+	//}
+
+	// cpr
+	// data -> [[[64, 11], [64.5, 11.5]]]
+	// cpr::Response r = cpr::Get(cpr::Url{"https://api.openstreetmap.org/api/0.6/map?bbox=14.3,54.1,14.425,54.225"});
+	// /api/0.6/map?bbox=longitude_left,latitude_left,longitude_right,latitude_right
+    // std::cout << r.status_code << std::endl;
+    // r.text;
+	// std::cout << r.text << std::endl; 
+	// cpr
+}
+
+
 GlosmViewer::GlosmViewer() : projection_(MercatorProjection()), viewer_(new FirstPersonViewer) {
 	screenw_ = screenh_ = 1;
 	nframes_ = 0;
@@ -54,10 +152,17 @@ GlosmViewer::GlosmViewer() : projection_(MercatorProjection()), viewer_(new Firs
 	mouse_capture_ = true;
 #endif
 
+	/*************************
+	*						 *
+	*   DISABLE NOT USEFULL  *
+	*		  LAYERS		 *
+	*					     *
+	*************************/
+
 	ground_shown_ = true;
-	detail_shown_ = true;
+	detail_shown_ = false;
 	gpx_shown_ = true;
-	terrain_shown_ = true;
+	terrain_shown_ = false;
 
 	no_glew_check_ = false;
 
@@ -140,7 +245,38 @@ void GlosmViewer::Init(int argc, char** argv) {
 			if (osm_datasource_.get() == NULL) {
 				Timer t;
 				osm_datasource_.reset(new PreloadedXmlDatasource);
-				osm_datasource_->Load(argv[narg]);
+
+				/********************************
+				*								*
+				*								*
+				*          LOAD OPEN			*
+				*		  STREET MAP			*
+				*								*
+				********************************/
+
+				//cpr_load();
+				const char* myPath = "../../testdata/program/";
+				for(const auto& dirEntry : recursive_directory_iterator(myPath))
+				{
+					//std::cout << dirEntry << std::endl;
+					std::string pathes = dirEntry.path().u8string();
+					//	std::cout << pathes.c_str() << std::endl;
+					osm_datasource_->Load(pathes.c_str());
+				}
+
+				//const char* box1 = "output1.osm";
+				//const char* box2 = "../../testdata/program/output2.osm";
+				//const char* box3 = "../../testdata/program/output3.osm";
+				//const char* box4 = "../../testdata/program/output4.osm";
+				
+				//osm_datasource_->Load(box2);
+				//osm_datasource_->Load(box3);
+				//osm_datasource_->Load(box4);
+
+				//osm_datasource_->Load(argv[narg]);
+				// LOAD MORE OSM FILES
+
+
 				fprintf(stderr, "Loaded in %.3f seconds\n", t.Count());
 			} else {
 				fprintf(stderr, "Only single OSM file may be loaded at once, skipped\n");
@@ -149,6 +285,9 @@ void GlosmViewer::Init(int argc, char** argv) {
 			fprintf(stderr, "Loading %s as GPX...\n", argv[narg]);
 			if (gpx_datasource_.get() == NULL)
 				gpx_datasource_.reset(new PreloadedGPXDatasource);
+
+			std::cout << "GPX working " << std::endl;
+			//https://api.openstreetmap.org/api/0.6/trackpoints?bbox=11.2,64.52,65,11.68&page=0
 
 			Timer t;
 			gpx_datasource_->Load(argv[narg]);
