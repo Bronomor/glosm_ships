@@ -115,18 +115,9 @@ void GeometryTile::CalcFanNormal(Vertex* vertices, int count) {
 }
 
 void GeometryTile::Render() {
-
-	//glClearColor(0,0,0.1 , 0);
-
 	if (lines_vertices_.get()) {
 
 		lines_vertices_->Bind();
-
-		//GLubyte colors[] =
-		//{
-    	//	0, 200, 0,
-		//};
-
 		glEnableClientState(GL_VERTEX_ARRAY);
 		//glColorPointer( 3, GL_UNSIGNED_BYTE, 0, colors );
 		glVertexPointer(3, GL_FLOAT, sizeof(Vector3f), BUFFER_OFFSET(0));
@@ -136,10 +127,10 @@ void GeometryTile::Render() {
 		//0.6/0.3/0.2
 //		lines_indices_->Bind();
 //		glDrawElements(GL_LINES, lines_indices_->GetSize(), GL_UNSIGNED_INT, 0);
-		//glScaled(10,10,10);
+		//glScaled(2,2,2);
 		glDrawElements(GL_LINES, lines_indices_->GetSize(), GL_UNSIGNED_INT, lines_indices_->Data().data());
 		//glScaled(0.1,0.1,0.1);
-//		lines_indices_->UnBind();
+		lines_indices_->UnBind();
 		//glColor4i(0, 0.6, 0, 0);
 
 		glDisableClientState(GL_VERTEX_ARRAY);

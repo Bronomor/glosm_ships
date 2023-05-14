@@ -48,7 +48,7 @@ protected:
 	size_t size_;
 
 public:
-	static std::vector<std::pair<Vector3i, Vector3i>> shipsGlobal;
+	static std::vector<std::pair<Vector3i, Vector3f>> shipsGlobal;
 	std::vector<Vector3f> ships;
 	/**
 	 * Constructs tile from vector of points

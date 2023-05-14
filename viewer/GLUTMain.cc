@@ -106,6 +106,14 @@ void KeyUp(unsigned char key, int, int) {
 	app.KeyUp(key);
 }
 
+void Something(int val){
+	glutTimerFunc(500, Something, 0);
+	//auto vector = app.geometry_generator_->GetCenter();
+	//std::cout << vector.x << " " << vector.y  << std::endl;
+	app.UpdateShips();
+	std::cout << "UPDATE" << std::endl;
+}
+
 pid_t pid;
 
 //void exiting() {
@@ -137,6 +145,7 @@ int real_main(int argc, char** argv) {
 
 		glutDisplayFunc(Display);
 		glutIdleFunc(Display);
+		//glutIdleFunc(Something);
 		glutReshapeFunc(Reshape);
 		glutMouseFunc(Button);
 		glutMotionFunc(Mouse);
@@ -145,6 +154,7 @@ int real_main(int argc, char** argv) {
 		glutKeyboardUpFunc(KeyUp);
 		glutSpecialFunc(SpecialDown);
 		glutSpecialUpFunc(SpecialUp);
+		glutTimerFunc(1000, Something, 0);
 
 		app.InitGL();
 		

@@ -33,15 +33,16 @@
 #include "3dsModel/ModelReader.h"
 #include <json/json.h>
 #include <filesystem>
+#include <string>
 
-std::vector<std::pair<Vector3i, Vector3i>> MakeVector()
+std::vector<std::pair<Vector3i, Vector3f>> MakeVector()
 {
 	ladujModele();
 	
 	Json::Value root;
 	Json::CharReaderBuilder builder;
 	JSONCPP_STRING errs;
-	std::vector<std::pair<Vector3i, Vector3i>> ship_vector;
+	std::vector<std::pair<Vector3i, Vector3f>> ship_vector;
 
 	std::ifstream ifs;
 	if (ifs) {
@@ -67,11 +68,14 @@ std::vector<std::pair<Vector3i, Vector3i>> MakeVector()
 			int latInt = ParseCoord(lat.c_str());
 			int lonInt = ParseCoord(lon.c_str());
 
-			int cogInt = ParseCoord(cog.c_str());
-			int sogInt = ParseCoord(sog.c_str());
+			auto cogInt = atof(cog.c_str());
+			auto sogInt = atof(sog.c_str());
+			//auto sogInt = 1.0;
+
+			//std::cout << cogInt << " " << sogInt << std::endl;
 
 			auto ship = Vector3i(lonInt, latInt, 0);
-			auto details = Vector3i(cogInt, sogInt, sogInt);
+			auto details = Vector3f(cogInt, sogInt, sogInt);
 			ship_vector.push_back(std::make_pair(ship, details));
 		}
 	}
@@ -83,7 +87,7 @@ std::vector<std::pair<Vector3i, Vector3i>> MakeVector()
 	return ship_vector;
 }
 
-std::vector<std::pair<Vector3i, Vector3i>> GPXTile::shipsGlobal = MakeVector();
+std::vector<std::pair<Vector3i, Vector3f>> GPXTile::shipsGlobal = MakeVector();
 
 GPXTile::GPXTile(const Projection& projection, const GPXDatasource& datasource, const HeightmapDatasource& heightmap, const Vector2i& ref, const BBoxi& bbox) : Tile(ref), size_(0) {
 	std::vector<Vector3i> points;
@@ -111,7 +115,7 @@ GPXTile::GPXTile(const Projection& projection, const GPXDatasource& datasource, 
 	********************************/
 
 	
-	for (std::vector<std::pair<Vector3i, Vector3i>>::const_iterator i = shipsGlobal.begin(); i != shipsGlobal.end(); ++i) {
+	for (std::vector<std::pair<Vector3i, Vector3f>>::const_iterator i = shipsGlobal.begin(); i != shipsGlobal.end(); ++i) {
 		auto ship = Vector3i(i->first.x, i->first.y, 0);
 		Vector3f shipFloat = projection.Project(ship, ref);
 		ships.push_back(shipFloat);
@@ -137,29 +141,16 @@ void GPXTile::Render() {
 		
 		glEnableClientState(GL_VERTEX_ARRAY);
 
-		
+		std::cout << " \n\n\n\n" << std::endl;
 		for ( int i=0; i<ships.size(); i++ )
 		{
-			//glPushMatrix();
-			//glBegin(GL_TRIANGLES);
-			//	glVertex2f ( ships[i].x, ships[i].y );
-			//	glVertex2f ( ships[i].x - 0.0001, ships[i].y);
-			//	glVertex2f ( ships[i].x - 0.0002, ships[i].y - 0.0001);
-			//glEnd();
-			//glPopMatrix();
-
-			//std::cout << ships[i].x << "  " << ships[i].y << std::endl;
 			glPushMatrix();
 				glTranslated(ships[i].x, ships[i].y, -0.00015 );
 				glRotated(shipsGlobal[i].second.x,0,0,1);
+				glTranslated(0, 0.0001 * shipsGlobal[i].second.y, 0 );
 				glRotated(180,1,0,0);
-				
-				//auto newPair = std::make_pair(shipsGlobal[i].first, Vector3i(shipsGlobal[i].second.x, shipsGlobal[i].second.y + shipsGlobal[i].second.z, shipsGlobal[i].second.z) );
-				glTranslated(shipsGlobal[i].second.y,0,0);
 				glScaled(0.0000001, 0.0000001, 0.0000001);
 				rysujModel ("scene");
-				//shipsGlobal[i] = newPair;
-				shipsGlobal[i].second.y = shipsGlobal[i].second.y + shipsGlobal[i].second.z;
 			glPopMatrix();
 		} 
 

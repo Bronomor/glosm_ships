@@ -24,6 +24,7 @@
 #include <glosm/DummyHeightmap.hh>
 #include <glosm/FirstPersonViewer.hh>
 #include <glosm/GPXLayer.hh>
+#include <glosm/GPXTile.hh>
 #include <glosm/GeometryGenerator.hh>
 #include <glosm/GeometryLayer.hh>
 #include <glosm/PreloadedGPXDatasource.hh>
@@ -56,9 +57,11 @@ public:
 		BUTTON_RIGHT
 	};
 
+	Projection projection_;
+	std::auto_ptr<GeometryGenerator> geometry_generator_;
+
 protected:
 	/* flags */
-	Projection projection_;
 	bool no_glew_check_;
 
 	double start_lon_;
@@ -72,7 +75,6 @@ protected:
 	std::auto_ptr<PreloadedXmlDatasource> osm_datasource_;
 	std::auto_ptr<PreloadedGPXDatasource> gpx_datasource_;
 	std::auto_ptr<HeightmapDatasource> heightmap_datasource_;
-	std::auto_ptr<GeometryGenerator> geometry_generator_;
 
 	std::auto_ptr<GeometryLayer> ground_layer_;
 	std::auto_ptr<GPXLayer> gpx_layer_;
@@ -116,6 +118,10 @@ public:
 	virtual void KeyUp(int key);
 	virtual void MouseMove(int x, int y);
 	virtual void MouseButton(int button, bool pressed, int x, int y);
+	void UpdateShips(){
+		for ( int i=0; i<GPXTile::shipsGlobal.size(); i++ )
+			GPXTile::shipsGlobal[i].second.y = GPXTile::shipsGlobal[i].second.y + GPXTile::shipsGlobal[i].second.z;
+	};
 };
 
 #endif
