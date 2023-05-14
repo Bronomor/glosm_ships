@@ -303,7 +303,28 @@ jak uruchomic ?
 
 sudo su
 mdkirp -p build && cd build
-cmake .. -DBUILD_VIEWER_GLUT=ON -DBUILD_VIEWER_SDL=OFF
+
+#### CONAN
+pip3 install conan==1.59
+conan profile detect
+sudo apt-get install libboost-all-dev
+cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_VIEWER_GLUT=ON -DBUILD_VIEWER_SDL=OFF 
 make && make install
 cd viewer
-./glosm-viewer-glut ../../testdata/glosm.osm ../../testdata/glosm.gpx
+./glosm-viewer-glut ../../testdata/glosm.osm ../../testdata/tracks.gpx
+
+
+open street maps restrict to size 0.250000
+max osm data 0.5x0.5 or 50000 nodes in city
+
+file osm skeleton 
+//cpr::Response r = cpr::Get(cpr::Url{"https://api.openstreetmap.org/api/0.6/map?bbox=14.3,54.1,14.425,54.225"});
+// /api/0.6/map?bbox=longitude_left,latitude_left,longitude_right,latitude_right
+
+
+w Tile manager przy tym glPushMatrix mozna by wziac aktualna pozycje ?
+
+chcemy tylko pokazac na mapie ground_shown_
+
+czyli ten render 
+void GeometryLayer::Render(const Viewer& viewer) {}

@@ -52,6 +52,7 @@ public:
 
 	void Render(const Viewer& viewer);
 	virtual Tile* SpawnTile(const BBoxi& bbox, int flags) const;
+	//void UpdateShips();
 };
 
 #endif

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="OpenStreetMap.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <trk>
+    <name>Track_2022_06_11_224145.gpx</name>
+    <desc>Między dwoma promami</desc>
+    <url>/user/andrzej_aa/traces/4766458</url>
+    <trkseg>
+      <trkpt lat="64.7115831" lon="11.4649772">
+        <time>2022-06-11T07:12:04Z</time>
+      </trkpt>
+      <trkpt lat="64.7115971" lon="11.4649879">
+        <time>2022-06-11T07:12:08Z</time>
+      </trkpt>
+      <trkpt lat="64.7118659" lon="11.4655484">
+        <time>2022-06-11T07:12:23Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <trkseg>
+      <trkpt lat="64.8335280" lon="11.5105530">
+        <time>2016-07-16T10:32:11Z</time>
+      </trkpt>
+      <trkpt lat="64.8334760" lon="11.5104170">
+        <time>2016-07-16T10:32:12Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

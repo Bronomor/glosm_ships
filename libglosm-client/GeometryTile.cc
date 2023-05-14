@@ -25,6 +25,7 @@
 #include <glosm/Projection.hh>
 #include <glosm/Geometry.hh>
 #include <glosm/VertexBuffer.hh>
+#include <iostream>
 
 GeometryTile::GeometryTile(const Projection& projection, const Geometry& geometry, const Vector2i& ref, const BBoxi& bbox) : Tile(ref), size_(0) {
 	if (!geometry.GetLinesLengths().empty()) {
@@ -115,57 +116,24 @@ void GeometryTile::CalcFanNormal(Vertex* vertices, int count) {
 
 void GeometryTile::Render() {
 	if (lines_vertices_.get()) {
-		glColor4f(0.0f, 0.0f, 0.0f, 0.5f);
 
 		lines_vertices_->Bind();
-
 		glEnableClientState(GL_VERTEX_ARRAY);
+		//glColorPointer( 3, GL_UNSIGNED_BYTE, 0, colors );
 		glVertexPointer(3, GL_FLOAT, sizeof(Vector3f), BUFFER_OFFSET(0));
 
+		//glColor4f(0.6, 0.5, 0, 1);	
+		glColor4f(0.1, 0.2, 0, 1);	
+		//0.6/0.3/0.2
 //		lines_indices_->Bind();
 //		glDrawElements(GL_LINES, lines_indices_->GetSize(), GL_UNSIGNED_INT, 0);
+		//glScaled(2,2,2);
 		glDrawElements(GL_LINES, lines_indices_->GetSize(), GL_UNSIGNED_INT, lines_indices_->Data().data());
-//		lines_indices_->UnBind();
+		//glScaled(0.1,0.1,0.1);
+		lines_indices_->UnBind();
+		//glColor4i(0, 0.6, 0, 0);
 
 		glDisableClientState(GL_VERTEX_ARRAY);
-	}
-
-	if (convex_vertices_.get()) {
-		/* zpass */
-		/*glColor4f(0.0f, 0.0f, 0.0f, 0.0f);
-		triangles_->Render();
-		quads_->Render();
-
-		glDepthFunc(GL_EQUAL);*/
-
-		/* objects */
-		glEnable(GL_LIGHTING);
-		glEnable(GL_LIGHT0);
-
-		convex_vertices_->Bind();
-
-		glEnableClientState(GL_VERTEX_ARRAY);
-		glVertexPointer(3, GL_FLOAT, sizeof(Vertex), BUFFER_OFFSET(0));
-
-		glEnableClientState(GL_NORMAL_ARRAY);
-		glNormalPointer(GL_FLOAT, sizeof(Vertex), BUFFER_OFFSET(12));
-
-		/* XXX: since we can't do PolygonOffset for lines, we offset all polygons instead */
-		glPolygonOffset(1.0, 1.0);
-		glEnable(GL_POLYGON_OFFSET_FILL);
-
-//		convex_indices_->Bind();
-//		glDrawElements(GL_TRIANGLES, convex_indices_->GetSize(), GL_UNSIGNED_INT, 0);
-		glDrawElements(GL_TRIANGLES, convex_indices_->GetSize(), GL_UNSIGNED_INT, convex_indices_->Data().data());
-//		convex_indices_->UnBind();
-
-		glDisable(GL_POLYGON_OFFSET_FILL);
-
-		glDisableClientState(GL_NORMAL_ARRAY);
-		glDisableClientState(GL_VERTEX_ARRAY);
-
-		glDisable(GL_LIGHT0);
-		glDisable(GL_LIGHTING);
 	}
 }
 

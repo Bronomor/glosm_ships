@@ -32,6 +32,12 @@
 
 #include <cstdio>
 
+#include <thread>
+#include <unistd.h>
+#include <stdlib.h>
+#include <signal.h>
+#include <stdio.h> 
+
 class GlosmViewerImpl : public GlosmViewer {
 protected:
 	virtual void WarpCursor(int x, int y) {
@@ -100,37 +106,65 @@ void KeyUp(unsigned char key, int, int) {
 	app.KeyUp(key);
 }
 
+void Something(int val){
+	glutTimerFunc(500, Something, 0);
+	//auto vector = app.geometry_generator_->GetCenter();
+	//std::cout << vector.x << " " << vector.y  << std::endl;
+	app.UpdateShips();
+	std::cout << "UPDATE" << std::endl;
+}
+
+pid_t pid;
+
+//void exiting() {
+//	kill(-pid, SIGKILL);
+//    std::cout << "Exiting";
+//}
+
 int real_main(int argc, char** argv) {
-	glutInit(&argc, argv);
 
-	app.Init(argc, argv);
+	//std::atexit(exiting);
 
-	/* glut init */
-	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA | GLUT_MULTISAMPLE);
-	glutInitWindowSize(800, 600);
-	glutCreateWindow("glosm viewer");
 
-	glutIgnoreKeyRepeat(1);
+    //pid = fork();
+    //if(pid == 0) { // child process
+    //    setpgid(getpid(), getpid());
+    //    system("python3 ../../viewer/aisstream.py 64 11 65 12");
+    //}
+	//else {
+		glutInit(&argc, argv);
 
-	glutDisplayFunc(Display);
-	glutIdleFunc(Display);
-	glutReshapeFunc(Reshape);
-	glutMouseFunc(Button);
-	glutMotionFunc(Mouse);
-	glutPassiveMotionFunc(Mouse);
-	glutKeyboardFunc(KeyDown);
-	glutKeyboardUpFunc(KeyUp);
-	glutSpecialFunc(SpecialDown);
-	glutSpecialUpFunc(SpecialUp);
+		app.Init(argc, argv);
 
-	app.InitGL();
-	
-	/* main loop */
-	/* note that this never returns and objects created above
-	 * are never properly destroyed; should dump GLUT ASAP */
-	glutMainLoop();
+		/* glut init */
+		glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA | GLUT_MULTISAMPLE);
+		glutInitWindowSize(800, 600);
+		glutCreateWindow("glosm viewer");
 
-	return 0;
+		glutIgnoreKeyRepeat(1);
+
+		glutDisplayFunc(Display);
+		glutIdleFunc(Display);
+		//glutIdleFunc(Something);
+		glutReshapeFunc(Reshape);
+		glutMouseFunc(Button);
+		glutMotionFunc(Mouse);
+		glutPassiveMotionFunc(Mouse);
+		glutKeyboardFunc(KeyDown);
+		glutKeyboardUpFunc(KeyUp);
+		glutSpecialFunc(SpecialDown);
+		glutSpecialUpFunc(SpecialUp);
+		glutTimerFunc(1000, Something, 0);
+
+		app.InitGL();
+		
+		/* main loop */
+		/* note that this never returns and objects created above
+		* are never properly destroyed; should dump GLUT ASAP */
+		glutMainLoop();
+
+		return 0;
+	//}
 }
 
 int main(int argc, char** argv) {

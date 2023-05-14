@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.8 (3332677 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="65.0000000" minlon="11.2800000" maxlat="65.0800000" maxlon="11.3600000"/>
+ <node id="24891686" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0587670" lon="11.2806517"/>
+ <node id="24891687" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0584674" lon="11.2795671"/>
+ <node id="24891688" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0588946" lon="11.2796983"/>
+ <node id="24891689" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0590329" lon="11.2800136"/>
+ <node id="24891690" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0589122" lon="11.2805980"/>
+ <node id="24891691" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0588877" lon="11.2806353"/>
+ <node id="24891877" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0546445" lon="11.3352047"/>
+ <node id="24891878" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0548269" lon="11.3347864"/>
+ <node id="24891879" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0548461" lon="11.3346169"/>
+ <node id="24891880" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0546989" lon="11.3351642"/>
+ <node id="24891882" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0538816" lon="11.2801629"/>
+ <node id="24891883" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0536593" lon="11.2795063"/>
+ <node id="24891884" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0538900" lon="11.2790449"/>
+ <node id="24891885" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:30Z" user="Reitstoen_import" uid="3296383" lat="65.0539145" lon="11.2790117"/>
+ <node id="24891886" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:31Z" user="Reitstoen_import" uid="3296383" lat="65.0544828" lon="11.2784861"/>
+ <node id="24891887" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:31Z" user="Reitstoen_import" uid="3296383" lat="65.0545516" lon="11.2786389"/>
+ <node id="24891888" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:31Z" user="Reitstoen_import" uid="3296383" lat="65.0544784" lon="11.2796530"/>
+ <node id="24891889" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:31Z" user="Reitstoen_import" uid="3296383" lat="65.0544632" lon="11.2799347"/>
+ <node id="24891890" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:31Z" user="Reitstoen_import" uid="3296383" lat="65.0541516" lon="11.2803052"/>
+ <node id="24891891" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:31Z" user="Reitstoen_import" uid="3296383" lat="65.0541254" lon="11.2803385"/>
+ <node id="24892070" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:34Z" user="Reitstoen_import" uid="3296383" lat="65.0487069" lon="11.3368880"/>
+ <node id="24892071" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:34Z" user="Reitstoen_import" uid="3296383" lat="65.0486425" lon="11.3358223"/>
+ <node id="24892072" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:34Z" user="Reitstoen_import" uid="3296383" lat="65.0492328" lon="11.3361430"/>
+ <node id="24892073" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:34Z" user="Reitstoen_import" uid="3296383" lat="65.0491022" lon="11.3368606"/>
+ <node id="24892113" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0472644" lon="11.3351316"/>
+ <node id="24892114" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0471581" lon="11.3349147"/>
+ <node id="24892115" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0471239" lon="11.3346582"/>
+ <node id="24892116" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0469480" lon="11.3340987"/>
+ <node id="24892117" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0479936" lon="11.3335440"/>
+ <node id="24892118" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0480833" lon="11.3335476"/>
+ <node id="24892119" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0484942" lon="11.3338612"/>
+ <node id="24892120" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0484572" lon="11.3340296"/>
+ <node id="24892121" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0481265" lon="11.3351222"/>
+ <node id="24892134" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0464352" lon="11.3408385"/>
+ <node id="24892135" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0465437" lon="11.3407577"/>
+ <node id="24892136" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0462428" lon="11.3401083"/>
+ <node id="24892137" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0475725" lon="11.3399479"/>
+ <node id="24892138" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0475689" lon="11.3405004"/>
+ <node id="24892139" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0475320" lon="11.3406686"/>
+ <node id="24892140" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0474045" lon="11.3409190"/>
+ <node id="24892141" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0471167" lon="11.3409928"/>
+ <node id="24892142" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0472623" lon="11.3408913"/>
+ <node id="24892143" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0468478" lon="11.3408974"/>
+ <node id="24892144" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:35Z" user="Reitstoen_import" uid="3296383" lat="65.0469192" lon="11.3409850"/>
+ <node id="24892188" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:36Z" user="Reitstoen_import" uid="3296383" lat="65.0441645" lon="11.3367968"/>
+ <node id="24892189" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:36Z" user="Reitstoen_import" uid="3296383" lat="65.0444328" lon="11.3369348"/>
+ <node id="24892190" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:36Z" user="Reitstoen_import" uid="3296383" lat="65.0445589" lon="11.3368547"/>
+ <node id="24892191" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:58:36Z" user="Reitstoen_import" uid="3296383" lat="65.0442714" lon="11.3368862"/>
+ <node id="637594046" visible="true" version="2" changeset="52011007" timestamp="2017-09-13T15:40:45Z" user="NKA_import" uid="3842253" lat="65.1254543" lon="11.1505140"/>
+ <node id="637594053" visible="true" version="2" changeset="52011007" timestamp="2017-09-13T15:40:45Z" user="NKA_import" uid="3842253" lat="65.0079970" lon="11.2843595"/>
+ <node id="637594058" visible="true" version="2" changeset="52011007" timestamp="2017-09-13T15:40:45Z" user="NKA_import" uid="3842253" lat="65.1869054" lon="10.8093825"/>
+ <node id="5103565240" visible="true" version="1" changeset="52011007" timestamp="2017-09-13T15:39:55Z" user="NKA_import" uid="3842253" lat="64.9961933" lon="11.3788106"/>
+ <node id="5103565242" visible="true" version="1" changeset="52011007" timestamp="2017-09-13T15:39:55Z" user="NKA_import" uid="3842253" lat="65.1878909" lon="10.8038648"/>
+ <node id="5366780537" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:40Z" user="Reitstoen_import" uid="3296383" lat="65.0539089" lon="11.2786331"/>
+ <node id="5366780538" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:40Z" user="Reitstoen_import" uid="3296383" lat="65.0539081" lon="11.2784747"/>
+ <node id="5366780539" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:40Z" user="Reitstoen_import" uid="3296383" lat="65.0537455" lon="11.2791566"/>
+ <node id="5366780540" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:40Z" user="Reitstoen_import" uid="3296383" lat="65.0539250" lon="11.2788515"/>
+ <node id="5366780541" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:40Z" user="Reitstoen_import" uid="3296383" lat="65.0536215" lon="11.2796092"/>
+ <node id="5366780542" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:40Z" user="Reitstoen_import" uid="3296383" lat="65.0536909" lon="11.2793129"/>
+ <node id="5366780543" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:40Z" user="Reitstoen_import" uid="3296383" lat="65.0537249" lon="11.2792033"/>
+ <node id="5366780697" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:42Z" user="Reitstoen_import" uid="3296383" lat="65.0491930" lon="11.3510653">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366780749" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:43Z" user="Reitstoen_import" uid="3296383" lat="65.0480538" lon="11.3378405"/>
+ <node id="5366780750" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:43Z" user="Reitstoen_import" uid="3296383" lat="65.0480728" lon="11.3377137"/>
+ <node id="5366780751" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:43Z" user="Reitstoen_import" uid="3296383" lat="65.0480892" lon="11.3379695"/>
+ <node id="5366780752" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:43Z" user="Reitstoen_import" uid="3296383" lat="65.0481833" lon="11.3373354"/>
+ <node id="5366780753" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:43Z" user="Reitstoen_import" uid="3296383" lat="65.0483797" lon="11.3374705"/>
+ <node id="5366780815" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:44Z" user="Reitstoen_import" uid="3296383" lat="65.0491953" lon="11.3374763">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366780816" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:44Z" user="Reitstoen_import" uid="3296383" lat="65.0476260" lon="11.3375749">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366780999" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:47Z" user="Reitstoen_import" uid="3296383" lat="65.0461305" lon="11.3407416"/>
+ <node id="5366781004" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0460792" lon="11.3403996"/>
+ <node id="5366781008" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0461341" lon="11.3402317"/>
+ <node id="5366781046" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0583137" lon="11.2799414"/>
+ <node id="5366781047" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0582947" lon="11.2798915"/>
+ <node id="5366781048" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0584778" lon="11.2802341"/>
+ <node id="5366781049" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0584256" lon="11.2801767"/>
+ <node id="5366781050" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0585593" lon="11.2805049"/>
+ <node id="5366781051" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0585171" lon="11.2804133"/>
+ <node id="5366781052" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0586732" lon="11.2806278"/>
+ <node id="5366781053" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0586115" lon="11.2805819"/>
+ <node id="5366781054" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0582507" lon="11.2796967"/>
+ <node id="5366781055" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:48Z" user="Reitstoen_import" uid="3296383" lat="65.0582249" lon="11.2796612"/>
+ <node id="5366781227" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:50Z" user="Reitstoen_import" uid="3296383" lat="65.0479928" lon="11.3363075"/>
+ <node id="5366781228" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:50Z" user="Reitstoen_import" uid="3296383" lat="65.0478494" lon="11.3362170"/>
+ <node id="5366781229" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:50Z" user="Reitstoen_import" uid="3296383" lat="65.0478308" lon="11.3363440"/>
+ <node id="5366781288" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:51Z" user="Reitstoen_import" uid="3296383" lat="65.0544841" lon="11.2791830"/>
+ <node id="5366781289" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:51Z" user="Reitstoen_import" uid="3296383" lat="65.0545943" lon="11.2790580"/>
+ <node id="5366781290" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:51Z" user="Reitstoen_import" uid="3296383" lat="65.0544108" lon="11.2793694"/>
+ <node id="5366781291" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:51Z" user="Reitstoen_import" uid="3296383" lat="65.0544385" lon="11.2792562"/>
+ <node id="5366781292" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:51Z" user="Reitstoen_import" uid="3296383" lat="65.0544682" lon="11.2781879"/>
+ <node id="5366781293" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:51Z" user="Reitstoen_import" uid="3296383" lat="65.0545681" lon="11.2786957"/>
+ <node id="5366781294" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:51Z" user="Reitstoen_import" uid="3296383" lat="65.0544219" lon="11.2795919"/>
+ <node id="5366781295" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:51Z" user="Reitstoen_import" uid="3296383" lat="65.0544086" lon="11.2795270"/>
+ <node id="5366781315" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:52Z" user="Reitstoen_import" uid="3296383" lat="65.0443523" lon="11.3355713"/>
+ <node id="5366781501" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:53Z" user="Reitstoen_import" uid="3296383" lat="65.0488336" lon="11.3347403">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366781658" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:54Z" user="Reitstoen_import" uid="3296383" lat="65.0490914" lon="11.3358400"/>
+ <node id="5366781659" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:54Z" user="Reitstoen_import" uid="3296383" lat="65.0490023" lon="11.3357514"/>
+ <node id="5366781660" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:54Z" user="Reitstoen_import" uid="3296383" lat="65.0483853" lon="11.3366628"/>
+ <node id="5366781661" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:54Z" user="Reitstoen_import" uid="3296383" lat="65.0484025" lon="11.3367486"/>
+ <node id="5366781662" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:54Z" user="Reitstoen_import" uid="3296383" lat="65.0485992" lon="11.3368840"/>
+ <node id="5366781663" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:54Z" user="Reitstoen_import" uid="3296383" lat="65.0484984" lon="11.3359021"/>
+ <node id="5366781664" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:54Z" user="Reitstoen_import" uid="3296383" lat="65.0484436" lon="11.3360275"/>
+ <node id="5366781665" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:54Z" user="Reitstoen_import" uid="3296383" lat="65.0483870" lon="11.3364078"/>
+ <node id="5366781933" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:57Z" user="Reitstoen_import" uid="3296383" lat="65.0481786" lon="11.3380152"/>
+ <node id="5366781986" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:58Z" user="Reitstoen_import" uid="3296383" lat="65.0534919" lon="11.3303973"/>
+ <node id="5366781987" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:58Z" user="Reitstoen_import" uid="3296383" lat="65.0534583" lon="11.3300983"/>
+ <node id="5366781988" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:58Z" user="Reitstoen_import" uid="3296383" lat="65.0534947" lon="11.3300147"/>
+ <node id="5366781989" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:55:58Z" user="Reitstoen_import" uid="3296383" lat="65.0535661" lon="11.3300598"/>
+ <node id="5366782106" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:01Z" user="Reitstoen_import" uid="3296383" lat="65.0559395" lon="11.3349146"/>
+ <node id="5366782107" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:01Z" user="Reitstoen_import" uid="3296383" lat="65.0558678" lon="11.3349117"/>
+ <node id="5366782108" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:01Z" user="Reitstoen_import" uid="3296383" lat="65.0556856" lon="11.3352877"/>
+ <node id="5366782264" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:02Z" user="Reitstoen_import" uid="3296383" lat="65.0539179" lon="11.2782652"/>
+ <node id="5366782267" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:02Z" user="Reitstoen_import" uid="3296383" lat="65.0468419" lon="11.3365176"/>
+ <node id="5366782301" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:02Z" user="Reitstoen_import" uid="3296383" lat="65.0483583" lon="11.3379801"/>
+ <node id="5366782302" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:02Z" user="Reitstoen_import" uid="3296383" lat="65.0482859" lon="11.3380622"/>
+ <node id="5366782303" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:02Z" user="Reitstoen_import" uid="3296383" lat="65.0481247" lon="11.3380133"/>
+ <node id="5366782304" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:02Z" user="Reitstoen_import" uid="3296383" lat="65.0483967" lon="11.3376413"/>
+ <node id="5366782307" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:02Z" user="Reitstoen_import" uid="3296383" lat="65.0483950" lon="11.3378536"/>
+ <node id="5366782590" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:04Z" user="Reitstoen_import" uid="3296383" lat="65.0496216" lon="11.3511466">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366782741" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:05Z" user="Reitstoen_import" uid="3296383" lat="65.0497814" lon="11.3373551"/>
+ <node id="5366782742" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:05Z" user="Reitstoen_import" uid="3296383" lat="65.0496733" lon="11.3373933"/>
+ <node id="5366782743" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:05Z" user="Reitstoen_import" uid="3296383" lat="65.0496725" lon="11.3374783"/>
+ <node id="5366782744" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:05Z" user="Reitstoen_import" uid="3296383" lat="65.0496898" lon="11.3376064"/>
+ <node id="5366782745" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:05Z" user="Reitstoen_import" uid="3296383" lat="65.0497794" lon="11.3376523"/>
+ <node id="5366782746" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:05Z" user="Reitstoen_import" uid="3296383" lat="65.0498331" lon="11.3376543"/>
+ <node id="5366782747" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:05Z" user="Reitstoen_import" uid="3296383" lat="65.0498548" lon="11.3376296"/>
+ <node id="5366782975" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:07Z" user="Reitstoen_import" uid="3296383" lat="65.0480726" lon="11.3351628"/>
+ <node id="5366782976" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:07Z" user="Reitstoen_import" uid="3296383" lat="65.0472108" lon="11.3350870"/>
+ <node id="5366782977" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:08Z" user="Reitstoen_import" uid="3296383" lat="65.0484953" lon="11.3336911"/>
+ <node id="5366782978" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:08Z" user="Reitstoen_import" uid="3296383" lat="65.0481631" lon="11.3350386"/>
+ <node id="5366783001" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:08Z" user="Reitstoen_import" uid="3296383" lat="65.0484673" lon="11.3351776"/>
+ <node id="5366783050" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:09Z" user="Reitstoen_import" uid="3296383" lat="65.0559539" lon="11.3354678"/>
+ <node id="5366783051" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:09Z" user="Reitstoen_import" uid="3296383" lat="65.0559561" lon="11.3351277"/>
+ <node id="5366783052" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:09Z" user="Reitstoen_import" uid="3296383" lat="65.0557386" lon="11.3354172"/>
+ <node id="5366783053" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:09Z" user="Reitstoen_import" uid="3296383" lat="65.0558809" lon="11.3356353"/>
+ <node id="5366783054" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:09Z" user="Reitstoen_import" uid="3296383" lat="65.0559350" lon="11.3355949"/>
+ <node id="5366783102" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:10Z" user="Reitstoen_import" uid="3296383" lat="65.0440045" lon="11.3365355"/>
+ <node id="5366783103" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:10Z" user="Reitstoen_import" uid="3296383" lat="65.0439514" lon="11.3364059"/>
+ <node id="5366783104" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:10Z" user="Reitstoen_import" uid="3296383" lat="65.0439886" lon="11.3362374"/>
+ <node id="5366783105" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:10Z" user="Reitstoen_import" uid="3296383" lat="65.0440966" lon="11.3361566"/>
+ <node id="5366783106" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:10Z" user="Reitstoen_import" uid="3296383" lat="65.0443308" lon="11.3360806"/>
+ <node id="5366783107" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:10Z" user="Reitstoen_import" uid="3296383" lat="65.0445101" lon="11.3361300"/>
+ <node id="5366783108" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:10Z" user="Reitstoen_import" uid="3296383" lat="65.0445994" lon="11.3361764"/>
+ <node id="5366783109" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:10Z" user="Reitstoen_import" uid="3296383" lat="65.0446350" lon="11.3362202"/>
+ <node id="5366783410" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0586874" lon="11.2796847"/>
+ <node id="5366783411" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0587782" lon="11.2796595"/>
+ <node id="5366783412" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0588685" lon="11.2796669"/>
+ <node id="5366783413" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0589426" lon="11.2798702"/>
+ <node id="5366783417" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0543829" lon="11.3340885"/>
+ <node id="5366783418" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0543286" lon="11.3341292"/>
+ <node id="5366783419" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0542737" lon="11.3342971"/>
+ <node id="5366783420" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0542539" lon="11.3345514"/>
+ <node id="5366783421" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0542706" lon="11.3347650"/>
+ <node id="5366783422" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0543233" lon="11.3349371"/>
+ <node id="5366783423" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0545550" lon="11.3351587"/>
+ <node id="5366783424" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0547231" lon="11.3342296"/>
+ <node id="5366783425" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:14Z" user="Reitstoen_import" uid="3296383" lat="65.0544725" lon="11.3340921"/>
+ <node id="5366783456" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:15Z" user="Reitstoen_import" uid="3296383" lat="65.0466775" lon="11.3395303"/>
+ <node id="5366783467" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:15Z" user="Reitstoen_import" uid="3296383" lat="65.0584436" lon="11.2795334"/>
+ <node id="5366783500" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:16Z" user="Reitstoen_import" uid="3296383" lat="65.0536341" lon="11.3306153"/>
+ <node id="5366783501" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:16Z" user="Reitstoen_import" uid="3296383" lat="65.0535630" lon="11.3305275"/>
+ <node id="5366783510" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:16Z" user="Reitstoen_import" uid="3296383" lat="65.0488625" lon="11.3351507"/>
+ <node id="5366783511" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:16Z" user="Reitstoen_import" uid="3296383" lat="65.0489861" lon="11.3354532"/>
+ <node id="5366783512" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:16Z" user="Reitstoen_import" uid="3296383" lat="65.0488611" lon="11.3353632"/>
+ <node id="5366783521" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0485022" lon="11.3353066"/>
+ <node id="5366783537" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0539910" lon="11.2780888"/>
+ <node id="5366783538" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0539686" lon="11.2779664"/>
+ <node id="5366783539" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0539137" lon="11.2779613"/>
+ <node id="5366783540" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0538371" lon="11.2780829"/>
+ <node id="5366783541" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0538275" lon="11.2781457"/>
+ <node id="5366783542" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0538305" lon="11.2782172"/>
+ <node id="5366783544" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0539439" lon="11.2783078"/>
+ <node id="5366783545" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0539514" lon="11.2783771"/>
+ <node id="5366783546" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0539261" lon="11.2784162"/>
+ <node id="5366783555" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0468036" lon="11.3368568"/>
+ <node id="5366783556" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0470541" lon="11.3369938"/>
+ <node id="5366783557" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0467992" lon="11.3375366"/>
+ <node id="5366783558" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0467491" lon="11.3369398"/>
+ <node id="5366783559" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0472294" lon="11.3375960"/>
+ <node id="5366783560" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:17Z" user="Reitstoen_import" uid="3296383" lat="65.0468347" lon="11.3375807"/>
+ <node id="5366783745" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:21Z" user="Reitstoen_import" uid="3296383" lat="65.0479764" lon="11.3334157"/>
+ <node id="5366783746" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:21Z" user="Reitstoen_import" uid="3296383" lat="65.0482093" lon="11.3335096"/>
+ <node id="5366783747" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:21Z" user="Reitstoen_import" uid="3296383" lat="65.0474195" lon="11.3334796"/>
+ <node id="5366783748" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:21Z" user="Reitstoen_import" uid="3296383" lat="65.0472417" lon="11.3335802"/>
+ <node id="5366783759" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:21Z" user="Reitstoen_import" uid="3296383" lat="65.0534876" lon="11.2798088"/>
+ <node id="5366783780" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:22Z" user="Reitstoen_import" uid="3296383" lat="65.0499250" lon="11.3363593">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366783836" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:23Z" user="Reitstoen_import" uid="3296383" lat="65.0440756" lon="11.3366234"/>
+ <node id="5366783987" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:26Z" user="Reitstoen_import" uid="3296383" lat="65.0484600" lon="11.3336047"/>
+ <node id="5366783988" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:26Z" user="Reitstoen_import" uid="3296383" lat="65.0484064" lon="11.3335601"/>
+ <node id="5366783989" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:26Z" user="Reitstoen_import" uid="3296383" lat="65.0479050" lon="11.3333707"/>
+ <node id="5366783990" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:26Z" user="Reitstoen_import" uid="3296383" lat="65.0475459" lon="11.3333565"/>
+ <node id="5366784013" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:26Z" user="Reitstoen_import" uid="3296383" lat="65.0472678" lon="11.3372572"/>
+ <node id="5366784025" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:27Z" user="Reitstoen_import" uid="3296383" lat="65.0581067" lon="11.2796194"/>
+ <node id="5366784026" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:27Z" user="Reitstoen_import" uid="3296383" lat="65.0581293" lon="11.2796609"/>
+ <node id="5366784027" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:27Z" user="Reitstoen_import" uid="3296383" lat="65.0581514" lon="11.2793691"/>
+ <node id="5366784028" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:27Z" user="Reitstoen_import" uid="3296383" lat="65.0581098" lon="11.2794693"/>
+ <node id="5366784029" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:27Z" user="Reitstoen_import" uid="3296383" lat="65.0583026" lon="11.2793584"/>
+ <node id="5366784030" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:27Z" user="Reitstoen_import" uid="3296383" lat="65.0582726" lon="11.2793515"/>
+ <node id="5366784031" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:27Z" user="Reitstoen_import" uid="3296383" lat="65.0583565" lon="11.2794489"/>
+ <node id="5366784129" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:29Z" user="Reitstoen_import" uid="3296383" lat="65.0470892" lon="11.3397588"/>
+ <node id="5366784160" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:29Z" user="Reitstoen_import" uid="3296383" lat="65.0444439" lon="11.3352773"/>
+ <node id="5366784161" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:29Z" user="Reitstoen_import" uid="3296383" lat="65.0444978" lon="11.3352794"/>
+ <node id="5366784162" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:29Z" user="Reitstoen_import" uid="3296383" lat="65.0445509" lon="11.3354089"/>
+ <node id="5366784163" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:29Z" user="Reitstoen_import" uid="3296383" lat="65.0445853" lon="11.3356228"/>
+ <node id="5366784164" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:29Z" user="Reitstoen_import" uid="3296383" lat="65.0444225" lon="11.3357866"/>
+ <node id="5366784165" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:29Z" user="Reitstoen_import" uid="3296383" lat="65.0443867" lon="11.3357852"/>
+ <node id="5366784166" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:30Z" user="Reitstoen_import" uid="3296383" lat="65.0443510" lon="11.3357414"/>
+ <node id="5366784254" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:31Z" user="Reitstoen_import" uid="3296383" lat="65.0480278" lon="11.3364365"/>
+ <node id="5366784255" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:31Z" user="Reitstoen_import" uid="3296383" lat="65.0479730" lon="11.3365193"/>
+ <node id="5366784256" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:31Z" user="Reitstoen_import" uid="3296383" lat="65.0478833" lon="11.3365583"/>
+ <node id="5366784257" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:31Z" user="Reitstoen_import" uid="3296383" lat="65.0478117" lon="11.3365132"/>
+ <node id="5366784327" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0486125" lon="11.3349283"/>
+ <node id="5366784328" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0487200" lon="11.3349752"/>
+ <node id="5366784329" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0485059" lon="11.3374327"/>
+ <node id="5366784330" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0485600" lon="11.3373925"/>
+ <node id="5366784331" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0485037" lon="11.3377302"/>
+ <node id="5366784332" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0484686" lon="11.3376014"/>
+ <node id="5366784333" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0487917" lon="11.3376140"/>
+ <node id="5366784334" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0486108" lon="11.3378197"/>
+ <node id="5366784335" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0486136" lon="11.3373947"/>
+ <node id="5366784336" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:33Z" user="Reitstoen_import" uid="3296383" lat="65.0487748" lon="11.3374858"/>
+ <node id="5366784378" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:34Z" user="Reitstoen_import" uid="3296383" lat="65.0471603" lon="11.3398464"/>
+ <node id="5366784588" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:36Z" user="Reitstoen_import" uid="3296383" lat="65.0544820" lon="11.2798063"/>
+ <node id="5366784589" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:36Z" user="Reitstoen_import" uid="3296383" lat="65.0544390" lon="11.2799855"/>
+ <node id="5366784590" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:36Z" user="Reitstoen_import" uid="3296383" lat="65.0543794" lon="11.2800439"/>
+ <node id="5366784591" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:36Z" user="Reitstoen_import" uid="3296383" lat="65.0543186" lon="11.2800689"/>
+ <node id="5366784592" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:36Z" user="Reitstoen_import" uid="3296383" lat="65.0542197" lon="11.2800759"/>
+ <node id="5366784593" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:36Z" user="Reitstoen_import" uid="3296383" lat="65.0541957" lon="11.2801189"/>
+ <node id="5366784702" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:39Z" user="Reitstoen_import" uid="3296383" lat="65.0533192" lon="11.3294125"/>
+ <node id="5366784703" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:39Z" user="Reitstoen_import" uid="3296383" lat="65.0533361" lon="11.3295404"/>
+ <node id="5366784704" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:39Z" user="Reitstoen_import" uid="3296383" lat="65.0532842" lon="11.3292835"/>
+ <node id="5366784705" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:39Z" user="Reitstoen_import" uid="3296383" lat="65.0533176" lon="11.3296674"/>
+ <node id="5366784706" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:39Z" user="Reitstoen_import" uid="3296383" lat="65.0532278" lon="11.3296639"/>
+ <node id="5366784759" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:40Z" user="Reitstoen_import" uid="3296383" lat="65.0470539" lon="11.3396726"/>
+ <node id="5366784760" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:40Z" user="Reitstoen_import" uid="3296383" lat="65.0474842" lon="11.3397741"/>
+ <node id="5366784761" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:40Z" user="Reitstoen_import" uid="3296383" lat="65.0475375" lon="11.3398189"/>
+ <node id="5366784797" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:41Z" user="Reitstoen_import" uid="3296383" lat="65.0557236" lon="11.3349486"/>
+ <node id="5366784798" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:41Z" user="Reitstoen_import" uid="3296383" lat="65.0556870" lon="11.3350747"/>
+ <node id="5366784968" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:44Z" user="Reitstoen_import" uid="3296383" lat="65.0535656" lon="11.2796555"/>
+ <node id="5366784969" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:44Z" user="Reitstoen_import" uid="3296383" lat="65.0535156" lon="11.2797619"/>
+ <node id="5366785170" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:48Z" user="Reitstoen_import" uid="3296383" lat="65.0471489" lon="11.3336389"/>
+ <node id="5366785171" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:48Z" user="Reitstoen_import" uid="3296383" lat="65.0470403" lon="11.3337621"/>
+ <node id="5366785172" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:48Z" user="Reitstoen_import" uid="3296383" lat="65.0469675" lon="11.3338870"/>
+ <node id="5366785444" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:54Z" user="Reitstoen_import" uid="3296383" lat="65.0590193" lon="11.2802253"/>
+ <node id="5366785445" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:54Z" user="Reitstoen_import" uid="3296383" lat="65.0590302" lon="11.2801644"/>
+ <node id="5366785446" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:54Z" user="Reitstoen_import" uid="3296383" lat="65.0590249" lon="11.2799453"/>
+ <node id="5366785447" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:54Z" user="Reitstoen_import" uid="3296383" lat="65.0589440" lon="11.2804787"/>
+ <node id="5366785448" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:54Z" user="Reitstoen_import" uid="3296383" lat="65.0589497" lon="11.2803365"/>
+ <node id="5366785449" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:54Z" user="Reitstoen_import" uid="3296383" lat="65.0589626" lon="11.2802745"/>
+ <node id="5366785463" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:55Z" user="Reitstoen_import" uid="3296383" lat="65.0547945" lon="11.3343172"/>
+ <node id="5366785464" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:55Z" user="Reitstoen_import" uid="3296383" lat="65.0548472" lon="11.3344468"/>
+ <node id="5366785484" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:55Z" user="Reitstoen_import" uid="3296383" lat="65.0472684" lon="11.3398082"/>
+ <node id="5366785537" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:56Z" user="Reitstoen_import" uid="3296383" lat="65.0536711" lon="11.3304892"/>
+ <node id="5366785538" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:56Z" user="Reitstoen_import" uid="3296383" lat="65.0536375" lon="11.3301474"/>
+ <node id="5366785540" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:57Z" user="Reitstoen_import" uid="3296383" lat="65.0535783" lon="11.2800061"/>
+ <node id="5366785541" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:57Z" user="Reitstoen_import" uid="3296383" lat="65.0536433" lon="11.2800183"/>
+ <node id="5366785542" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:57Z" user="Reitstoen_import" uid="3296383" lat="65.0536638" lon="11.2800661"/>
+ <node id="5366785543" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:57Z" user="Reitstoen_import" uid="3296383" lat="65.0537526" lon="11.2800794"/>
+ <node id="5366785544" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:57Z" user="Reitstoen_import" uid="3296383" lat="65.0534777" lon="11.2799404"/>
+ <node id="5366785545" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:57Z" user="Reitstoen_import" uid="3296383" lat="65.0535175" lon="11.2800291"/>
+ <node id="5366785546" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:57Z" user="Reitstoen_import" uid="3296383" lat="65.0535487" lon="11.2800309"/>
+ <node id="5366785584" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:57Z" user="Reitstoen_import" uid="3296383" lat="65.0540643" lon="11.2779350"/>
+ <node id="5366785585" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0541752" lon="11.2775669"/>
+ <node id="5366785586" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0540155" lon="11.2781156"/>
+ <node id="5366785587" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0540449" lon="11.2780762"/>
+ <node id="5366785588" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0542846" lon="11.2777393"/>
+ <node id="5366785589" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0543064" lon="11.2777850"/>
+ <node id="5366785590" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0542032" lon="11.2775451"/>
+ <node id="5366785591" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0542305" lon="11.2775638"/>
+ <node id="5366785592" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0543682" lon="11.2778416"/>
+ <node id="5366785593" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0543904" lon="11.2778873"/>
+ <node id="5366785617" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0471434" lon="11.3370822"/>
+ <node id="5366785618" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0472839" lon="11.3375553"/>
+ <node id="5366785619" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:58Z" user="Reitstoen_import" uid="3296383" lat="65.0473025" lon="11.3374285"/>
+ <node id="5366785638" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:59Z" user="Reitstoen_import" uid="3296383" lat="65.0477672" lon="11.3379614">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366785639" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:59Z" user="Reitstoen_import" uid="3296383" lat="65.0464628" lon="11.3394366"/>
+ <node id="5366785640" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:59Z" user="Reitstoen_import" uid="3296383" lat="65.0464089" lon="11.3394348"/>
+ <node id="5366785641" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:59Z" user="Reitstoen_import" uid="3296383" lat="65.0467675" lon="11.3395336"/>
+ <node id="5366785643" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:59Z" user="Reitstoen_import" uid="3296383" lat="65.0463154" lon="11.3399835"/>
+ <node id="5366785645" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:59Z" user="Reitstoen_import" uid="3296383" lat="65.0463181" lon="11.3396015"/>
+ <node id="5366785647" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:56:59Z" user="Reitstoen_import" uid="3296383" lat="65.0462813" lon="11.3397272"/>
+ <node id="5366785772" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0454066" lon="11.3413107">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366785780" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0488157" lon="11.3367222"/>
+ <node id="5366785781" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0487792" lon="11.3368480"/>
+ <node id="5366785782" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0484684" lon="11.3350081"/>
+ <node id="5366785783" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0484872" lon="11.3348811"/>
+ <node id="5366785784" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0485586" lon="11.3349264"/>
+ <node id="5366785785" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0492758" lon="11.3366640"/>
+ <node id="5366785786" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0492647" lon="11.3367394"/>
+ <node id="5366785787" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0490666" lon="11.3368168"/>
+ <node id="5366785788" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0488881" lon="11.3366822"/>
+ <node id="5366785796" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:02Z" user="Reitstoen_import" uid="3296383" lat="65.0585067" lon="11.2796610"/>
+ <node id="5366785826" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0521701" lon="11.3293683"/>
+ <node id="5366785827" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0521167" lon="11.3293237"/>
+ <node id="5366785828" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0520819" lon="11.3291523"/>
+ <node id="5366785829" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0521183" lon="11.3290684"/>
+ <node id="5366785830" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0522442" lon="11.3290309"/>
+ <node id="5366785831" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0523153" lon="11.3291613"/>
+ <node id="5366785832" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0523325" lon="11.3292893"/>
+ <node id="5366785833" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0523139" lon="11.3293736"/>
+ <node id="5366785834" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:03Z" user="Reitstoen_import" uid="3296383" lat="65.0522087" lon="11.3289866"/>
+ <node id="5366786016" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:07Z" user="Reitstoen_import" uid="3296383" lat="65.0493387" lon="11.3364448"/>
+ <node id="5366786017" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:07Z" user="Reitstoen_import" uid="3296383" lat="65.0492844" lon="11.3364850"/>
+ <node id="5366786092" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:09Z" user="Reitstoen_import" uid="3296383" lat="65.0460776" lon="11.3406124"/>
+ <node id="5366786259" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:10Z" user="Reitstoen_import" uid="3296383" lat="65.0467520" lon="11.3365570"/>
+ <node id="5366786260" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:11Z" user="Reitstoen_import" uid="3296383" lat="65.0466800" lon="11.3365541"/>
+ <node id="5366786263" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:11Z" user="Reitstoen_import" uid="3296383" lat="65.0466461" lon="11.3362552"/>
+ <node id="5366786264" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:11Z" user="Reitstoen_import" uid="3296383" lat="65.0467897" lon="11.3362608"/>
+ <node id="5366786265" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:11Z" user="Reitstoen_import" uid="3296383" lat="65.0465906" lon="11.3365085"/>
+ <node id="5366786266" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:11Z" user="Reitstoen_import" uid="3296383" lat="65.0465914" lon="11.3363808"/>
+ <node id="5366786267" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:11Z" user="Reitstoen_import" uid="3296383" lat="65.0468610" lon="11.3363486"/>
+ <node id="5366786268" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:11Z" user="Reitstoen_import" uid="3296383" lat="65.0468780" lon="11.3364769"/>
+ <node id="5366786298" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:11Z" user="Reitstoen_import" uid="3296383" lat="65.0585898" lon="11.2797201"/>
+ <node id="5366786425" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0466140" lon="11.3357240">
+  <tag k="seamark:type" v="rock"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </node>
+ <node id="5366786427" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0488450" lon="11.3350648"/>
+ <node id="5366786428" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0489847" lon="11.3356655"/>
+ <node id="5366786429" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0490214" lon="11.3355396"/>
+ <node id="5366786430" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0485378" lon="11.3353509"/>
+ <node id="5366786431" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0487883" lon="11.3354879"/>
+ <node id="5366786432" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0498531" lon="11.3373576"/>
+ <node id="5366786433" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0498709" lon="11.3374007"/>
+ <node id="5366786434" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0498881" lon="11.3374864"/>
+ <node id="5366786435" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:14Z" user="Reitstoen_import" uid="3296383" lat="65.0498692" lon="11.3376134"/>
+ <node id="5366786574" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:17Z" user="Reitstoen_import" uid="3296383" lat="65.0538466" lon="11.2801544"/>
+ <node id="5366786575" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:17Z" user="Reitstoen_import" uid="3296383" lat="65.0541480" lon="11.2799578"/>
+ <node id="5366786576" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:17Z" user="Reitstoen_import" uid="3296383" lat="65.0541461" lon="11.2800328"/>
+ <node id="5366786577" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:18Z" user="Reitstoen_import" uid="3296383" lat="65.0541059" lon="11.2801401"/>
+ <node id="5366786578" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:18Z" user="Reitstoen_import" uid="3296383" lat="65.0541013" lon="11.2802782"/>
+ <node id="5366786579" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:18Z" user="Reitstoen_import" uid="3296383" lat="65.0539801" lon="11.2801609"/>
+ <node id="5366786580" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:18Z" user="Reitstoen_import" uid="3296383" lat="65.0540083" lon="11.2799531"/>
+ <node id="5366786581" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:18Z" user="Reitstoen_import" uid="3296383" lat="65.0540694" lon="11.2799152"/>
+ <node id="5366786582" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:18Z" user="Reitstoen_import" uid="3296383" lat="65.0541284" lon="11.2799140"/>
+ <node id="5366786688" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:20Z" user="Reitstoen_import" uid="3296383" lat="65.0532309" lon="11.3291964"/>
+ <node id="5366786689" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:20Z" user="Reitstoen_import" uid="3296383" lat="65.0531594" lon="11.3291512"/>
+ <node id="5366786690" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:20Z" user="Reitstoen_import" uid="3296383" lat="65.0531214" lon="11.3294472"/>
+ <node id="5366786691" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:20Z" user="Reitstoen_import" uid="3296383" lat="65.0531742" lon="11.3296195"/>
+ <node id="5366786692" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:20Z" user="Reitstoen_import" uid="3296383" lat="65.0531231" lon="11.3291921"/>
+ <node id="5366786693" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:20Z" user="Reitstoen_import" uid="3296383" lat="65.0531044" lon="11.3293191"/>
+ <node id="5366786779" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:22Z" user="Reitstoen_import" uid="3296383" lat="65.0470006" lon="11.3395852"/>
+ <node id="5366786780" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:22Z" user="Reitstoen_import" uid="3296383" lat="65.0468575" lon="11.3394947"/>
+ <node id="5366786848" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:23Z" user="Reitstoen_import" uid="3296383" lat="65.0491445" lon="11.3359269"/>
+ <node id="5366786927" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:25Z" user="Reitstoen_import" uid="3296383" lat="65.0547715" lon="11.3350393"/>
+ <way id="4207285" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:59:04Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366783410"/>
+  <nd ref="5366786298"/>
+  <nd ref="5366785796"/>
+  <nd ref="24891687"/>
+  <nd ref="5366783467"/>
+  <nd ref="5366784031"/>
+  <nd ref="5366784029"/>
+  <nd ref="5366784030"/>
+  <nd ref="5366784027"/>
+  <nd ref="5366784028"/>
+  <nd ref="5366784025"/>
+  <nd ref="5366784026"/>
+  <nd ref="5366781055"/>
+  <nd ref="5366781054"/>
+  <nd ref="5366781047"/>
+  <nd ref="5366781046"/>
+  <nd ref="5366781049"/>
+  <nd ref="5366781048"/>
+  <nd ref="5366781051"/>
+  <nd ref="5366781050"/>
+  <nd ref="5366781053"/>
+  <nd ref="5366781052"/>
+  <nd ref="24891686"/>
+  <nd ref="24891691"/>
+  <nd ref="24891690"/>
+  <nd ref="5366785447"/>
+  <nd ref="5366785448"/>
+  <nd ref="5366785449"/>
+  <nd ref="5366785444"/>
+  <nd ref="5366785445"/>
+  <nd ref="24891689"/>
+  <nd ref="5366785446"/>
+  <nd ref="5366783413"/>
+  <nd ref="24891688"/>
+  <nd ref="5366783412"/>
+  <nd ref="5366783411"/>
+  <nd ref="5366783410"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2010-08-18"/>
+ </way>
+ <way id="4207299" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:59:04Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366786927"/>
+  <nd ref="24891878"/>
+  <nd ref="24891879"/>
+  <nd ref="5366785464"/>
+  <nd ref="5366785463"/>
+  <nd ref="5366783424"/>
+  <nd ref="5366783425"/>
+  <nd ref="5366783417"/>
+  <nd ref="5366783418"/>
+  <nd ref="5366783419"/>
+  <nd ref="5366783420"/>
+  <nd ref="5366783421"/>
+  <nd ref="5366783422"/>
+  <nd ref="5366783423"/>
+  <nd ref="24891877"/>
+  <nd ref="24891880"/>
+  <nd ref="5366786927"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="4207300" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:59:04Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366784969"/>
+  <nd ref="5366783759"/>
+  <nd ref="5366785544"/>
+  <nd ref="5366785545"/>
+  <nd ref="5366785546"/>
+  <nd ref="5366785540"/>
+  <nd ref="5366785541"/>
+  <nd ref="5366785542"/>
+  <nd ref="5366785543"/>
+  <nd ref="5366786574"/>
+  <nd ref="24891882"/>
+  <nd ref="5366786579"/>
+  <nd ref="5366786580"/>
+  <nd ref="5366786581"/>
+  <nd ref="5366786582"/>
+  <nd ref="5366786575"/>
+  <nd ref="5366786576"/>
+  <nd ref="5366786577"/>
+  <nd ref="5366786578"/>
+  <nd ref="24891891"/>
+  <nd ref="24891890"/>
+  <nd ref="5366784593"/>
+  <nd ref="5366784592"/>
+  <nd ref="5366784591"/>
+  <nd ref="5366784590"/>
+  <nd ref="5366784589"/>
+  <nd ref="24891889"/>
+  <nd ref="5366784588"/>
+  <nd ref="24891888"/>
+  <nd ref="5366781294"/>
+  <nd ref="5366781295"/>
+  <nd ref="5366781290"/>
+  <nd ref="5366781291"/>
+  <nd ref="5366781288"/>
+  <nd ref="5366781289"/>
+  <nd ref="5366781293"/>
+  <nd ref="24891887"/>
+  <nd ref="24891886"/>
+  <nd ref="5366781292"/>
+  <nd ref="5366785593"/>
+  <nd ref="5366785592"/>
+  <nd ref="5366785589"/>
+  <nd ref="5366785588"/>
+  <nd ref="5366785591"/>
+  <nd ref="5366785590"/>
+  <nd ref="5366785585"/>
+  <nd ref="5366785584"/>
+  <nd ref="5366785587"/>
+  <nd ref="5366785586"/>
+  <nd ref="5366783537"/>
+  <nd ref="5366783538"/>
+  <nd ref="5366783539"/>
+  <nd ref="5366783540"/>
+  <nd ref="5366783541"/>
+  <nd ref="5366783542"/>
+  <nd ref="5366782264"/>
+  <nd ref="5366783544"/>
+  <nd ref="5366783545"/>
+  <nd ref="5366783546"/>
+  <nd ref="5366780538"/>
+  <nd ref="5366780537"/>
+  <nd ref="5366780540"/>
+  <nd ref="24891885"/>
+  <nd ref="24891884"/>
+  <nd ref="5366780539"/>
+  <nd ref="5366780543"/>
+  <nd ref="5366780542"/>
+  <nd ref="24891883"/>
+  <nd ref="5366780541"/>
+  <nd ref="5366784968"/>
+  <nd ref="5366784969"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2010-08-18"/>
+ </way>
+ <way id="4207317" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:59:06Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366785785"/>
+  <nd ref="5366786017"/>
+  <nd ref="5366786016"/>
+  <nd ref="24892072"/>
+  <nd ref="5366786848"/>
+  <nd ref="5366781658"/>
+  <nd ref="5366781659"/>
+  <nd ref="24892071"/>
+  <nd ref="5366781663"/>
+  <nd ref="5366781664"/>
+  <nd ref="5366781665"/>
+  <nd ref="5366781660"/>
+  <nd ref="5366781661"/>
+  <nd ref="5366781662"/>
+  <nd ref="24892070"/>
+  <nd ref="5366785781"/>
+  <nd ref="5366785780"/>
+  <nd ref="5366785788"/>
+  <nd ref="5366785787"/>
+  <nd ref="24892073"/>
+  <nd ref="5366785786"/>
+  <nd ref="5366785785"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="4207321" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:59:07Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366783748"/>
+  <nd ref="5366785170"/>
+  <nd ref="5366785171"/>
+  <nd ref="5366785172"/>
+  <nd ref="24892116"/>
+  <nd ref="24892115"/>
+  <nd ref="24892114"/>
+  <nd ref="5366782976"/>
+  <nd ref="24892113"/>
+  <nd ref="5366782975"/>
+  <nd ref="24892121"/>
+  <nd ref="5366782978"/>
+  <nd ref="24892120"/>
+  <nd ref="24892119"/>
+  <nd ref="5366782977"/>
+  <nd ref="5366783987"/>
+  <nd ref="5366783988"/>
+  <nd ref="5366783746"/>
+  <nd ref="24892118"/>
+  <nd ref="24892117"/>
+  <nd ref="5366783745"/>
+  <nd ref="5366783989"/>
+  <nd ref="5366783990"/>
+  <nd ref="5366783747"/>
+  <nd ref="5366783748"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="4207324" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:59:08Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="24892142"/>
+  <nd ref="24892140"/>
+  <nd ref="24892139"/>
+  <nd ref="24892138"/>
+  <nd ref="24892137"/>
+  <nd ref="5366784761"/>
+  <nd ref="5366784760"/>
+  <nd ref="5366785484"/>
+  <nd ref="5366784378"/>
+  <nd ref="5366784129"/>
+  <nd ref="5366784759"/>
+  <nd ref="5366786779"/>
+  <nd ref="5366786780"/>
+  <nd ref="5366785641"/>
+  <nd ref="5366783456"/>
+  <nd ref="5366785639"/>
+  <nd ref="5366785640"/>
+  <nd ref="5366785645"/>
+  <nd ref="5366785647"/>
+  <nd ref="5366785643"/>
+  <nd ref="24892136"/>
+  <nd ref="5366781008"/>
+  <nd ref="5366781004"/>
+  <nd ref="5366786092"/>
+  <nd ref="5366780999"/>
+  <nd ref="24892134"/>
+  <nd ref="24892135"/>
+  <nd ref="24892143"/>
+  <nd ref="24892144"/>
+  <nd ref="24892141"/>
+  <nd ref="24892142"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="4207329" visible="true" version="2" changeset="55814367" timestamp="2018-01-27T20:59:08Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="24892188"/>
+  <nd ref="24892191"/>
+  <nd ref="24892189"/>
+  <nd ref="24892190"/>
+  <nd ref="5366783109"/>
+  <nd ref="5366783108"/>
+  <nd ref="5366783107"/>
+  <nd ref="5366783106"/>
+  <nd ref="5366783105"/>
+  <nd ref="5366783104"/>
+  <nd ref="5366783103"/>
+  <nd ref="5366783102"/>
+  <nd ref="5366783836"/>
+  <nd ref="24892188"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="50157595" visible="true" version="2" changeset="52011007" timestamp="2017-09-13T15:41:03Z" user="NKA_import" uid="3842253">
+  <nd ref="5103565242"/>
+  <nd ref="637594058"/>
+  <nd ref="637594046"/>
+  <nd ref="637594053"/>
+  <nd ref="5103565240"/>
+  <tag k="admin_level" v="7"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="maritime" v="yes"/>
+  <tag k="source" v="Kartverket Administrative enheter"/>
+ </way>
+ <way id="556344621" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:28Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366781933"/>
+  <nd ref="5366782302"/>
+  <nd ref="5366782301"/>
+  <nd ref="5366782307"/>
+  <nd ref="5366782304"/>
+  <nd ref="5366780753"/>
+  <nd ref="5366780752"/>
+  <nd ref="5366780750"/>
+  <nd ref="5366780749"/>
+  <nd ref="5366780751"/>
+  <nd ref="5366782303"/>
+  <nd ref="5366781933"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344645" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:31Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366784160"/>
+  <nd ref="5366781315"/>
+  <nd ref="5366784166"/>
+  <nd ref="5366784165"/>
+  <nd ref="5366784164"/>
+  <nd ref="5366784163"/>
+  <nd ref="5366784162"/>
+  <nd ref="5366784161"/>
+  <nd ref="5366784160"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344648" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:31Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366781229"/>
+  <nd ref="5366784257"/>
+  <nd ref="5366784256"/>
+  <nd ref="5366784255"/>
+  <nd ref="5366784254"/>
+  <nd ref="5366781227"/>
+  <nd ref="5366781228"/>
+  <nd ref="5366781229"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344650" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:32Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366784335"/>
+  <nd ref="5366784330"/>
+  <nd ref="5366784329"/>
+  <nd ref="5366784332"/>
+  <nd ref="5366784331"/>
+  <nd ref="5366784334"/>
+  <nd ref="5366784333"/>
+  <nd ref="5366784336"/>
+  <nd ref="5366784335"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344666" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:33Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366783052"/>
+  <nd ref="5366783053"/>
+  <nd ref="5366783054"/>
+  <nd ref="5366783050"/>
+  <nd ref="5366783051"/>
+  <nd ref="5366782106"/>
+  <nd ref="5366782107"/>
+  <nd ref="5366784797"/>
+  <nd ref="5366784798"/>
+  <nd ref="5366782108"/>
+  <nd ref="5366783052"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344708" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:39Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366785538"/>
+  <nd ref="5366781989"/>
+  <nd ref="5366781988"/>
+  <nd ref="5366781987"/>
+  <nd ref="5366781986"/>
+  <nd ref="5366783501"/>
+  <nd ref="5366783500"/>
+  <nd ref="5366785537"/>
+  <nd ref="5366785538"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344713" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:39Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366785617"/>
+  <nd ref="5366783556"/>
+  <nd ref="5366783555"/>
+  <nd ref="5366783558"/>
+  <nd ref="5366783557"/>
+  <nd ref="5366783560"/>
+  <nd ref="5366783559"/>
+  <nd ref="5366785618"/>
+  <nd ref="5366785619"/>
+  <nd ref="5366784013"/>
+  <nd ref="5366785617"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344721" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:40Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366785830"/>
+  <nd ref="5366785834"/>
+  <nd ref="5366785829"/>
+  <nd ref="5366785828"/>
+  <nd ref="5366785827"/>
+  <nd ref="5366785826"/>
+  <nd ref="5366785833"/>
+  <nd ref="5366785832"/>
+  <nd ref="5366785831"/>
+  <nd ref="5366785830"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344742" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:42Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366786259"/>
+  <nd ref="5366782267"/>
+  <nd ref="5366786268"/>
+  <nd ref="5366786267"/>
+  <nd ref="5366786264"/>
+  <nd ref="5366786263"/>
+  <nd ref="5366786266"/>
+  <nd ref="5366786265"/>
+  <nd ref="5366786260"/>
+  <nd ref="5366786259"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344757" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:44Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366784327"/>
+  <nd ref="5366785784"/>
+  <nd ref="5366785783"/>
+  <nd ref="5366785782"/>
+  <nd ref="5366783001"/>
+  <nd ref="5366783521"/>
+  <nd ref="5366786430"/>
+  <nd ref="5366786431"/>
+  <nd ref="5366786428"/>
+  <nd ref="5366786429"/>
+  <nd ref="5366783511"/>
+  <nd ref="5366783512"/>
+  <nd ref="5366783510"/>
+  <nd ref="5366786427"/>
+  <nd ref="5366784328"/>
+  <nd ref="5366784327"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344758" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:44Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366782747"/>
+  <nd ref="5366786435"/>
+  <nd ref="5366786434"/>
+  <nd ref="5366786433"/>
+  <nd ref="5366786432"/>
+  <nd ref="5366782741"/>
+  <nd ref="5366782742"/>
+  <nd ref="5366782743"/>
+  <nd ref="5366782744"/>
+  <nd ref="5366782745"/>
+  <nd ref="5366782746"/>
+  <nd ref="5366782747"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <way id="556344786" visible="true" version="1" changeset="55814367" timestamp="2018-01-27T20:57:48Z" user="Reitstoen_import" uid="3296383">
+  <nd ref="5366784704"/>
+  <nd ref="5366786688"/>
+  <nd ref="5366786689"/>
+  <nd ref="5366786692"/>
+  <nd ref="5366786693"/>
+  <nd ref="5366786690"/>
+  <nd ref="5366786691"/>
+  <nd ref="5366784706"/>
+  <nd ref="5366784705"/>
+  <nd ref="5366784703"/>
+  <nd ref="5366784702"/>
+  <nd ref="5366784704"/>
+  <tag k="natural" v="coastline"/>
+  <tag k="source" v="Kartverket N50"/>
+  <tag k="source:date" v="2004-03-08"/>
+ </way>
+ <relation id="407178" visible="true" version="17" changeset="134947028" timestamp="2023-04-15T16:15:09Z" user="NKA" uid="3497659">
+  <member type="way" ref="524436213" role="outer"/>
+  <member type="way" ref="49965193" role="outer"/>
+  <member type="way" ref="524436214" role="outer"/>
+  <member type="way" ref="50157595" role="outer"/>
+  <member type="way" ref="50157597" role="outer"/>
+  <member type="way" ref="524436216" role="outer"/>
+  <member type="way" ref="491615695" role="outer"/>
+  <member type="way" ref="491615679" role="outer"/>
+  <member type="way" ref="491615676" role="outer"/>
+  <member type="way" ref="50094900" role="outer"/>
+  <tag k="admin_level" v="7"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="name" v="Leka"/>
+  <tag k="place" v="municipality"/>
+  <tag k="population" v="582"/>
+  <tag k="population:date" v="2023-01-01"/>
+  <tag k="ref" v="5052"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q503591"/>
+ </relation>
+ <relation id="407204" visible="true" version="10" changeset="78867734" timestamp="2019-12-26T06:50:37Z" user="NKA" uid="3497659">
+  <member type="way" ref="524436215" role="outer"/>
+  <member type="way" ref="50094902" role="outer"/>
+  <member type="way" ref="524436214" role="outer"/>
+  <member type="way" ref="50157595" role="outer"/>
+  <member type="way" ref="50157593" role="outer"/>
+  <member type="way" ref="50159826" role="outer"/>
+  <member type="way" ref="50159825" role="outer"/>
+  <member type="way" ref="50159824" role="outer"/>
+  <tag k="name" v="Vikna (tidligere)"/>
+  <tag k="note" v="Municipality boundary until 1.1.2020"/>
+  <tag k="old_ref" v="5050"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="was:admin_level" v="7"/>
+  <tag k="was:boundary" v="administrative"/>
+  <tag k="was:place" v="municipality"/>
+  <tag k="wikidata" v="Q48833"/>
+ </relation>
+ <relation id="10143398" visible="true" version="9" changeset="134947028" timestamp="2023-04-15T16:15:09Z" user="NKA" uid="3497659">
+  <member type="way" ref="50094902" role="outer"/>
+  <member type="way" ref="524436215" role="outer"/>
+  <member type="way" ref="50159824" role="outer"/>
+  <member type="way" ref="50159825" role="outer"/>
+  <member type="way" ref="50159826" role="outer"/>
+  <member type="way" ref="733805649" role="outer"/>
+  <member type="way" ref="733805650" role="outer"/>
+  <member type="way" ref="733805648" role="outer"/>
+  <member type="way" ref="50157598" role="outer"/>
+  <member type="way" ref="524436222" role="outer"/>
+  <member type="way" ref="524436223" role="outer"/>
+  <member type="way" ref="722456419" role="outer"/>
+  <member type="way" ref="722456420" role="outer"/>
+  <member type="way" ref="50094907" role="outer"/>
+  <member type="way" ref="524436220" role="outer"/>
+  <member type="way" ref="524436218" role="outer"/>
+  <member type="way" ref="524436219" role="outer"/>
+  <member type="way" ref="524436217" role="outer"/>
+  <member type="way" ref="524436216" role="outer"/>
+  <member type="way" ref="50157597" role="outer"/>
+  <member type="way" ref="50157595" role="outer"/>
+  <member type="way" ref="524436214" role="outer"/>
+  <tag k="admin_level" v="7"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="name" v="Nærøysund"/>
+  <tag k="note" v="New municipality 1.1.2020"/>
+  <tag k="place" v="municipality"/>
+  <tag k="population" v="9890"/>
+  <tag k="population:date" v="2023-01-01"/>
+  <tag k="ref" v="5060"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q52368284"/>
+ </relation>
+</osm>

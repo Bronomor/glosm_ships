@@ -6,6 +6,8 @@ ENDIF(WITH_TOUCHPAD)
 IF(BUILD_VIEWER_SDL)
 	# Depends
 	FIND_PACKAGE(SDL REQUIRED)
+	find_package(cpr REQUIRED)
+	find_package(Boost REQUIRED)
 
 	IF(WITH_GLES OR WITH_GLES2)
 		FIND_PACKAGE(SDL_gles REQUIRED)
@@ -35,6 +37,11 @@ IF(BUILD_VIEWER_SDL)
 		${SDL_LIBRARY}
 		${SDLGLES_LIBRARY}
 		${GL_LIBRARIES}
+		${CONAN_LIBS}
+		cpr::cpr
+		Boost::boost
+		jsoncpp::jsoncpp
+		${PYTHON_LIBRARIES}
 	)
 
 	# Installation
@@ -45,7 +52,9 @@ IF(BUILD_VIEWER_GLUT)
 	# Depends
 	
 	FIND_PACKAGE(GLUT REQUIRED)
-
+	find_package(cpr REQUIRED)
+	find_package(Boost REQUIRED)
+	
 	# Targets
 	SET(SOURCES
 		GLUTMain.cc
@@ -69,6 +78,11 @@ IF(BUILD_VIEWER_GLUT)
 		${OPENGL_LIBRARIES}
 		${GLUT_LIBRARIES}
 		${GL_LIBRARIES}
+		${CONAN_LIBS}
+		cpr::cpr
+		Boost::boost
+		jsoncpp::jsoncpp
+		${PYTHON_LIBRARIES}
 	)
 
 	# Installation

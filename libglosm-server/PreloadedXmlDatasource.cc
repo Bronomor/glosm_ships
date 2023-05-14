@@ -230,7 +230,7 @@ void PreloadedXmlDatasource::FinalizeWay() {
 		for (Way::NodesList::const_iterator i = last_way_->second.Nodes.begin(); i != last_way_->second.Nodes.end(); ++i) {
 			cur = nodes_.find(*i);
 			if (cur == nodes_.end()) {
-				std::cerr << "WARNING: node " << *i << " referenced by way " << last_way_->first << " was not found in this dump, dropping way" << std::endl;
+				//std::cerr << "WARNING: node " << *i << " referenced by way " << last_way_->first << " was not found in this dump, dropping way" << std::endl;
 				ways_.erase_last();
 				last_way_ = ways_.end();
 				return;
@@ -246,7 +246,7 @@ void PreloadedXmlDatasource::FinalizeWay() {
 		for (Way::NodesList::const_iterator i = last_way_->second.Nodes.begin(); i != last_way_->second.Nodes.end(); ++i) {
 			NodesMap::const_iterator cur = nodes_.find(*i);
 			if (cur == nodes_.end()) {
-				std::cerr << "WARNING: node " << *i << " referenced by way " << last_way_->first << " was not found in this dump, dropping way" << std::endl;
+				//std::cerr << "WARNING: node " << *i << " referenced by way " << last_way_->first << " was not found in this dump, dropping way" << std::endl;
 				ways_.erase_last();
 				last_way_ = ways_.end();
 				return;
@@ -273,7 +273,7 @@ void PreloadedXmlDatasource::FinalizeRelation() {
 
 		WaysMap::const_iterator way = ways_.find(member->Ref);
 		if (way == ways_.end()) {
-			std::cerr << "WARNING: way " << member->Ref << " referenced by relation " << last_relation_->first << " was not found in this dump, ignoring it" << std::endl;
+			//std::cerr << "WARNING: way " << member->Ref << " referenced by relation " << last_relation_->first << " was not found in this dump, ignoring it" << std::endl;
 			continue;
 		}
 

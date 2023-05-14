@@ -194,7 +194,7 @@ int real_main(int argc, char** argv) {
 	GeometryGenerator geometry_generator(osm_datasource, heightmap);
 
 	GeometryLayer layer(MercatorProjection(), geometry_generator);
-	layer.SetSizeLimit(128*1024*1024);
+	layer.SetSizeLimit(1024*1024*1024);
 
 	/* Rendering */
 	fprintf(stderr, "Rendering...\n");

@@ -28,8 +28,6 @@ SET(SOURCES
 	OrthoViewer.cc
 	Projection.cc
 	SphericalProjection.cc
-	TerrainLayer.cc
-	TerrainTile.cc
 	TileManager.cc
 	model3DS.cpp
 )
@@ -58,7 +56,6 @@ SET(HEADERS
 	glosm/Projection.hh
 	glosm/Renderable.hh
 	glosm/SphericalProjection.hh
-	glosm/TerrainLayer.hh
 	glosm/TerrainTile.hh
 	glosm/Tile.hh
 	glosm/TileManager.hh
@@ -77,7 +74,7 @@ INCLUDE_DIRECTORIES(. ../libglosm-server ${EXPAT_INCLUDE_DIR}
 ADD_LIBRARY(glosm-client SHARED ${SOURCES} ${GLUT_LIBRARIES}
 ${GL_LIBRARIES})
 
-TARGET_LINK_LIBRARIES(glosm-client glosm-server ${GL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${GLUT_LIBRARIES}
+TARGET_LINK_LIBRARIES(glosm-client glosm-server ${GL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${GLUT_LIBRARIES} jsoncpp::jsoncpp
 ${GL_LIBRARIES})
 
 

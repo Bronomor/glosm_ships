@@ -145,7 +145,9 @@ void TerrainTile::Render() {
 
 	ibo_->Bind();
 
+	//glScaled(10,10,10);
 	glDrawElements(GL_TRIANGLE_STRIP, ibo_->GetSize(), GL_UNSIGNED_SHORT, BUFFER_OFFSET(0));
+	//glScaled(0.1,0.1,0.1);
 
 	ibo_->UnBind();
 
