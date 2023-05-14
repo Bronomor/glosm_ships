@@ -27,6 +27,7 @@
 
 #include <memory>
 #include <vector>
+#include <utility>
 
 template <class T>
 class VertexBuffer;
@@ -46,9 +47,9 @@ protected:
 
 	size_t size_;
 
-	std::vector<Vector3f> ships;
-
 public:
+	static std::vector<std::pair<Vector3i, Vector3i>> shipsGlobal;
+	std::vector<Vector3f> ships;
 	/**
 	 * Constructs tile from vector of points
 	 *

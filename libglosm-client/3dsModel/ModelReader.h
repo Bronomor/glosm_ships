@@ -2,7 +2,9 @@
 
 #include "model3DS.h"
 
-model3DS * model2;
+model3DS* ladujModele();
+
+static model3DS * model2 = ladujModele();
 
 struct model_w_skladzie {
 	char * filename;
@@ -30,6 +32,8 @@ model3DS * pobierzModel (char* file_name)
 	//}
 	//return NULL;
 
+	//return model2;
+
 	return model2;
 }
 
@@ -41,7 +45,7 @@ void rysujModel(char * file_name)
 	}
 }
 
-void ladujModele()
+model3DS* ladujModele()
 {
 	model3DS * model_tmp;
 
@@ -51,9 +55,11 @@ void ladujModele()
 
 	//model2 = new model3DS ("/home/pawlo/Pulpit/glosm/libglosm-client/data/BISMARK_.3DS",1,0);
 
-	model_tmp = new model3DS ("/home/pawlo/Pulpit/glosm/libglosm-client/data/lawka.3ds",1,0);
-	dodajModel (model_tmp,"lawka");
-	printf("[3DS] Model '%s' stored\n","lawka");
+	//model_tmp = new model3DS ("/home/pawlo/Pulpit/glosm/libglosm-client/data/lawka.3ds",1,0);
+	//dodajModel (model_tmp,"lawka");
+	//printf("[3DS] Model '%s' stored\n","lawka");
 
-	model2 = new model3DS ("/home/pawlo/Pulpit/glosm/libglosm-client/data/GLORIEUX.3DS",1,0);
+	model_tmp = new model3DS ("/home/pawlo/Pulpit/glosm/libglosm-client/data/GLORIEUX.3DS",1,0);
+
+	return model_tmp;
 }

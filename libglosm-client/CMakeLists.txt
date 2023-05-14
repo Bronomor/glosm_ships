@@ -28,8 +28,6 @@ SET(SOURCES
 	OrthoViewer.cc
 	Projection.cc
 	SphericalProjection.cc
-	TerrainLayer.cc
-	TerrainTile.cc
 	TileManager.cc
 	model3DS.cpp
 )
@@ -58,7 +56,6 @@ SET(HEADERS
 	glosm/Projection.hh
 	glosm/Renderable.hh
 	glosm/SphericalProjection.hh
-	glosm/TerrainLayer.hh
 	glosm/TerrainTile.hh
 	glosm/Tile.hh
 	glosm/TileManager.hh

@@ -75,10 +75,10 @@ void gpx_cpr_load()
 	// assumption square box
 	double latitude = 64.52;
 	double longitude = 11.2;
-	double progress = 0.08;
+	double progress = 0.5;
 	int index = 0;
 
-	std::string url = "https://api.openstreetmap.org/api/0.6/map?bbox="
+	std::string url = "https://api.openstreetmap.org/api/0.6/trackpoints?bbox="
 	+std::to_string(longitude)
 	+","
 	+std::to_string(latitude)
@@ -92,7 +92,7 @@ void gpx_cpr_load()
 	std::cout << r.header["content-type"] << std::endl;
 	std::cout << url << std::endl;
 
-	std::ofstream out("../../testdata/program/tracks.gpx");
+	std::ofstream out("../../testdata/tracks.gpx");
 	out << r.text;
 	out.close();
 }
@@ -113,7 +113,7 @@ void cpr_load()
 		for(double latitude=latitude_left; latitude<latitude_right; latitude+=progress){
 			get_cpr_file(longitude, latitude, progress, iterActual);
 			iterActual += 1;
-			std::cout << iterActual << std::endl;
+			//std::cout << iterActual << std::endl;
 		}
 	}
 
@@ -160,9 +160,7 @@ GlosmViewer::GlosmViewer() : projection_(MercatorProjection()), viewer_(new Firs
 	*************************/
 
 	ground_shown_ = true;
-	detail_shown_ = false;
 	gpx_shown_ = true;
-	terrain_shown_ = false;
 
 	no_glew_check_ = false;
 
@@ -255,6 +253,7 @@ void GlosmViewer::Init(int argc, char** argv) {
 				********************************/
 
 				//cpr_load();
+				//gpx_cpr_load();
 				const char* myPath = "../../testdata/program/";
 				for(const auto& dirEntry : recursive_directory_iterator(myPath))
 				{
@@ -333,34 +332,19 @@ void GlosmViewer::InitGL() {
 
 	geometry_generator_.reset(new GeometryGenerator(*osm_datasource_, *heightmap_datasource_));
 	ground_layer_.reset(new GeometryLayer(projection_, *geometry_generator_));
-	detail_layer_.reset(new GeometryLayer(projection_, *geometry_generator_));
 
 	ground_layer_->SetLevel(9);
-	ground_layer_->SetRange(1000000.0);
+	ground_layer_->SetRange(100000.0);
 	ground_layer_->SetFlags(GeometryDatasource::GROUND);
 	ground_layer_->SetHeightEffect(false);
-	ground_layer_->SetSizeLimit(32*1024*1024);
-
-	detail_layer_->SetLevel(12);
-	detail_layer_->SetRange(10000.0);
-	detail_layer_->SetFlags(GeometryDatasource::DETAIL);
-	detail_layer_->SetHeightEffect(true);
-	detail_layer_->SetSizeLimit(96*1024*1024);
+	ground_layer_->SetSizeLimit(1024*1024*1024);
 
 	if (gpx_datasource_.get()) {
 		gpx_layer_.reset(new GPXLayer(projection_, *gpx_datasource_, *heightmap_datasource_));
 		gpx_layer_->SetLevel(10);
-		gpx_layer_->SetRange(10000.0);
+		gpx_layer_->SetRange(100000.0);
 		gpx_layer_->SetHeightEffect(true);
 		gpx_layer_->SetSizeLimit(32*1024*1024);
-	}
-
-	if (heightmap_datasource_.get()) {
-		terrain_layer_.reset(new TerrainLayer(projection_, *heightmap_datasource_));
-		terrain_layer_->SetLevel(12);
-		terrain_layer_->SetRange(20000.0);
-		terrain_layer_->SetHeightEffect(false);
-		terrain_layer_->SetSizeLimit(32*1024*1024);
 	}
 
 	Vector3i startpos = geometry_generator_->GetCenter();
@@ -392,7 +376,7 @@ void GlosmViewer::Render() {
 	float dt = (float)(curtime_.tv_sec - prevtime_.tv_sec) + (float)(curtime_.tv_usec - prevtime_.tv_usec)/1000000.0f;
 
 	/* render frame */
-	glClearColor(0.5, 0.5, 0.5, 0.0);
+	glClearColor(0.1, 0.3, 0.5, 0);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	if (ground_shown_) {
@@ -401,22 +385,10 @@ void GlosmViewer::Render() {
 		ground_layer_->Render(*viewer_);
 	}
 
-	if (detail_shown_) {
-		detail_layer_->GarbageCollect();
-		detail_layer_->LoadLocality(*viewer_);
-		detail_layer_->Render(*viewer_);
-	}
-
 	if (gpx_shown_ && gpx_layer_.get()) {
 		gpx_layer_->GarbageCollect();
 		gpx_layer_->LoadLocality(*viewer_);
 		gpx_layer_->Render(*viewer_);
-	}
-
-	if (terrain_shown_ && terrain_layer_.get()) {
-		terrain_layer_->GarbageCollect();
-		terrain_layer_->LoadLocality(*viewer_);
-		terrain_layer_->Render(*viewer_);
 	}
 
 	glFlush();
@@ -528,14 +500,8 @@ void GlosmViewer::KeyDown(int key) {
 	case '1':
 		ground_shown_ = !ground_shown_;
 		break;
-	case '2':
-		detail_shown_ = !detail_shown_;
-		break;
 	case '3':
 		gpx_shown_ = !gpx_shown_;
-		break;
-	case '4':
-		terrain_shown_ = !terrain_shown_;
 		break;
 	case KEY_SHIFT:
 		fast_ = true;

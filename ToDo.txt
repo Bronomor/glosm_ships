@@ -4,3 +4,5 @@
 4. Przerobic modele zeby wczytywalo wszystkie a nie tylko zahardkodowany
 5. 2D mapka z wyborem ? 
 6. Podglad statku i szczegolowe informacje
+
+7. Parametry zeby podawac w budowie 

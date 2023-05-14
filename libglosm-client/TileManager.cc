@@ -290,7 +290,6 @@ int TileManager::RecRenderTiles(QuadNode* node, const Viewer& viewer) {
 	glMatrixMode(GL_MODELVIEW);
 	glPushMatrix();
 
-	glScaled(10000,10000,10000);
 	/* prepare modelview matrix for the tile: position
 	 * it in the right place given that viewer is always
 	 * at (0, 0, 0) */
